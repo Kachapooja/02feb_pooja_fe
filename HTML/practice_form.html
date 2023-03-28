@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Form</title>
+    <style>
+        h1 {
+            color: royalblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="contact" action="" method="post">
+        <h1>Registration Form</h1>
+        <p>Complete the form below and press the student button!</p>
+        <div class="row">
+            <div class="coloum">
+                <input type="text" name="name" placeholder="Full Name*"><br><br>
+                <input type="text" name="fnm" placeholder="Father Name*"><br><br>
+                <input type="email" name="email" placeholder="Your Email Adress*"><br><br>
+                <input type="text" name="bithdate" placeholder="Date Of Birth*"><br><br>
+                <input type="tel" name="tel" placeholder="Phone Number*" pattern="[0-9]" minlength="10"
+                    maxlength="11"><br><br>
+            </div>
+            <div class="coloum">
+                <p>What is your gender?</p>
+                <fieldset>
+                    <div class="radio">
+                        <input type="radio" id="male" name="gender" required>
+                        <label for="male">Male</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="radio">
+                        <input type="radio" id="female" name="gender" required>
+                        <label for="female">Female</label>
+                    </div>
+                </fieldset>
+                <p>Enter ID Card number in given formate.</p>
+                <fieldset>
+                    <input type="text" name="idcard" placeholder="#####" pattern="[0-9]{5}">
+                    <input type="text" name="idcard" placeholder="#######" pattern="[0-9]{7}">
+                    <input type="text" name="idcard" placeholder="#" pattern="[0-9]{1}">
+                </fieldset>
+                <p>Upload file</p>
+                <input type="file" name="file"><br><br>
+                <input type="submit" name="submit">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
