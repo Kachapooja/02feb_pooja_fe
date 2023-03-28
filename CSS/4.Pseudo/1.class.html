@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Class</title>
+    <style>
+        h1{
+            background: cyan;
+        }
+        a{
+            color: crimson;
+        }
+       a:visited{
+        color: rgb(240, 33, 153);
+       }
+       a:active{
+        color: steelblue;
+       } 
+       input:focus{
+        /* border: solid; */
+        border: none;
+        outline: none;
+       }
+       p:hover{
+        background-color: lightcoral;
+        padding: 10px;
+        color: blueviolet;
+       }
+       h1:first-child{
+        background: rgb(122, 185, 122);
+       }
+       /* h1:nth-child(2n){
+        background: lightcoral;
+       } */
+       /* h1:nth-child(2n+1){
+        background: powderblue;
+       } */
+       /* h1:nth-child(odd){
+        background: lightcoral;
+       } */
+       h1:nth-child(even){
+        background: powderblue;
+       }
+    </style>
+</head>
+<body>
+    <h1>Heading H1</h1>
+    <a href="https://www.Google.com">Google</a><br><br>
+    <a href="https://www.Flipkart.com">Flipkart</a><br><br>
+    <p>This is paragraph Tag!</p>
+    Focus &nbsp;<input type="text" name="" id>
+    <div>
+        <h1>Heading H1</h1>
+        <h1>Heading H1</h1>
+        <h1>Heading H1</h1>
+        <h1>Heading H1</h1>
+        <h1>Heading H1</h1>
+        <h1>Heading H1</h1>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quia!</p>
+</body>
+</html>

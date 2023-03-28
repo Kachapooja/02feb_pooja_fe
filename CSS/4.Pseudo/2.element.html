@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Element</title>
+    <style>
+        p::after{
+            content: "End!";
+            background: lightblue;
+            margin: 5px;
+            /* border: 2px solid orangered; */
+        }
+        p::before{
+            content: "Start!";
+            background: seagreen;
+            margin-right: 10px;
+        }
+        p::first-letter{
+            font-size: 30px;
+        }
+        p::first-line{
+            background: lightcoral;
+        }
+        ::selection{
+            background: lightgray;
+        }
+        ul li{
+            color: crimson;
+            /* list-style: square; */
+            /* list-style: circle; */
+            list-style: disc;
+        }
+        ::marker{
+            color: lime;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum error debitis impedit ab! Fuga sapiente ducimus, minus nihil, eos quasi fugit doloremque cupiditate unde quisquam, possimus voluptas officia magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum error debitis impedit ab! Fuga sapiente ducimus, minus nihil, eos quasi fugit doloremque cupiditate unde quisquam, possimus voluptas officia magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum error debitis impedit ab! Fuga sapiente ducimus, minus nihil, eos quasi fugit doloremque cupiditate unde quisquam, possimus voluptas officia magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum error debitis impedit ab! Fuga sapiente ducimus, minus nihil, eos quasi fugit doloremque cupiditate unde quisquam, possimus voluptas officia magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum error debitis impedit ab! Fuga sapiente ducimus, minus nihil, eos quasi fugit doloremque cupiditate unde quisquam, possimus voluptas officia magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum error debitis impedit ab! Fuga sapiente ducimus, minus nihil, eos quasi fugit doloremque cupiditate unde quisquam, possimus voluptas officia magnam.</p>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul>
+</body>
+</html>

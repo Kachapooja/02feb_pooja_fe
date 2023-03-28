@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+      div{
+        height: 200px;
+        width: auto;
+        background-color: powderblue;
+        margin: 20px;
+        /* border: 6px solid; */
+        border-color: lightcoral;
+        border-width: 7px;
+      }
+      .a1{
+        border-style: dashed;
+        border-radius: 10px 20px 30px 40px;
+      }
+      .a2{
+        border-style: double;
+        border-top: 6px double;
+      }
+      .a3{
+        border-style: dotted;
+        border-bottom: 10px dotted;
+      }
+      .a4{
+        border-style: ridge;
+        border-color: yellowgreen;
+        /* border-right-color: orangered; */
+        /* border-right: 10px ridge; */
+        /* border-left: 20px ridge; */
+        /* border-top-right-radius: 10px 30px; */
+        /* border-bottom-left-radius: 30px 40px; */
+        /* border-bottom-right-radius: 30px 50px; */
+        /* border-top-left-radius: 20px 40px; */
+        /* border-bottom-color: red; */
+        /* border-top-color: red; */
+        /* border-left-color: red; */
+        border-right-color: red;
+      }
+      .a5{
+        border-style: groove;
+        border-color: yellowgreen;
+        /* border-bottom-width: 20px; */
+        /* border-top-width: 20px; */
+        /* border-left-width: 20px; */
+        border-right-width: 20px;
+      }
+      .a6{
+        border-style: inset;
+        border-color: orangered;
+      }
+      .a7{
+        border-style: outset;
+        border-color: orangered;
+      }
+      .a8{
+        border-style: hidden;
+        transition: border-style 3s, background-color 2s;
+      }
+      .a8:hover{
+        border-style:solid;
+        background-color: hotpink;
+        border-color: yellowgreen;
+      }
+      .a9{
+        border-style:none
+      }
+    </style>
+</head>
+<body>
+    <div class="a1"></div>
+    <div class="a2"></div>
+    <div class="a3"></div>
+    <div class="a4"></div>
+    <div class="a5"></div>
+    <div class="a6"></div>
+    <div class="a7"></div>
+    <div class="a8"></div>
+    <div class="a9"></div>
+
+</body>
+</html>

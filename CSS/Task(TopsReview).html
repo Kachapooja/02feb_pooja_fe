@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tops Review</title>
+    <style>
+        h2 {
+            color: red;
+        }
+
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        div {
+            /* text-align: center; */
+            margin: auto;
+            height: fit-content;
+            width: fit-content;
+         }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1>Upload Reviews</h1>
+        <hr>
+        <h2>Please Note:</h2>
+        <ol>
+            <li>Please upload your screenshot of Google or Facebook review </li>
+            <li>If wrong image uploaded you will not be rewarded.</li>
+        </ol><br><br>
+        <div>
+            <label> Upload your image</label>
+            <span style="color: red;">*</span><br><br>
+            <input type="file" name="file" id=""><br><br>
+            <label>Review From</label>
+            <span style="color: red;">*</span><br><br>
+            <select name="review" id=""><br><br>
+                <option value="select">--Select--</option>
+                <option value="Facebook Review">Facebook Review</option>
+                <option value="Google Review">Google Review</option>
+            </select><br><br>
+            <label> Remark </label><br><br>
+            <textarea name="remark" id="" cols="30" rows="4"
+                placeholder="Type your remark"></textarea><br><br>
+            <input type="submit" name="submit" id="">
+        </div>
+        <hr>
+    </form>
+</body>
+
+</html>

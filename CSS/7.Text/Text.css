@@ -1,0 +1,50 @@
+div{
+    height: 200px;
+    border: solid;
+    color: green;
+    border-color: midnightblue;
+    /* text-align: justify; */
+    /* text-align: center; */
+    /* text-align: end; */
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: start; */
+    /* text-align: inherit; */
+    /* text-align: initial; */
+    /* text-align-last: justify; */
+    direction: ltr;
+    /* direction: rtl; */
+    text-decoration-line: underline;
+    /* text-decoration-line: overline; */
+    text-decoration-color: sienna;
+    /* text-decoration-style: dotted; */
+    text-decoration-style: double;
+    /* text-decoration-style: dashed; */
+    /* text-decoration-style: solid; */
+    text-decoration-thickness: 2px;
+    text-transform: capitalize;
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    /* text-transform: none; */
+    text-indent: 10px;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    /* white-space: pre-wrap; */
+    /* white-space: normal; */
+    /* white-space: nowrap; */
+    overflow: scroll;
+    /* overflow: visible; */
+    /* overflow: -moz-hidden-unscrollable; */
+    text-shadow: 10px 9px 7px yellowgreen;
+}
+i{
+    /* vertical-align: baseline; 
+    /* vertical-align: bottom; */
+    /* vertical-align: middle; */
+    /* vertical-align: sub; */
+    /* vertical-align: super; */
+    /* vertical-align: text-bottom; */
+    /* vertical-align: text-top; */
+    /* vertical-align: top; */
+    /* vertical-align: -webkit-baseline-middle; */
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child</title>
+    <style>
+        p{
+            background: rgb(230, 101, 176);
+        }
+        h2{
+            background: rgb(158, 105, 26);
+        }
+        div > p {
+            color: cyan;
+            border: 2px solid black;
+        }
+        div:hover .par{
+            background: rgb(171, 228, 37);
+            margin: auto;
+            border: 3px solid firebrick;
+            border-radius: 70px;
+            width: 600px;
+            font-size: 25px;
+        }
+        .img{
+            height: 400px;
+            width: 700px;
+            margin: auto;
+            border: 3px solid yellowgreen;
+            background: url(https://cdn.decoist.com/wp-content/uploads/2016/12/Minimal-coffee-table-decor.jpg);
+            background-size: 100% 100%;
+        }
+        .img:hover{
+            height: 500px;
+            width: 800px;
+            background: url(https://hips.hearstapps.com/hmg-prod/images/coffee-table-styling-ideas-03-1507044492.jpg);
+            border: double midnightblue;
+            border-radius: 60px;
+            /* cursor: pointer; */
+            cursor: move;
+        }
+        </style>
+</head>
+<body>
+    <h2> Heading 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, sunt ipsum? Quia nihil ex itaque necessitatibus id, tempora unde quibusdam.</p>
+    <div>
+        <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem molestiae ipsum earum assumenda reiciendis recusandae dolores mollitia facilis voluptas voluptatem.</p>
+    </div>
+    <div class="img">
+</div>
+    
+</body>
+</html>
