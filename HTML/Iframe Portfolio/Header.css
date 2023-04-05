@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: transparent;
+}
+.a img{
+    height: 80px;
+    width: 180px;
+    float: left;
+}
+.b{
+    float: right;
+}
+.b img{
+    height: 50px;
+    width: 50px;
+    float: right;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.b p{
+    float: right;
+    margin-right: 5px;
+    margin-top: 25px;
+}
+.b i{
+    margin-top: 25px;
+    margin-right: 10px;
+}

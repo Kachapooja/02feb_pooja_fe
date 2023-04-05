@@ -1,0 +1,14 @@
+*{
+    background-color: black;
+    color: #fff;
+}
+table,th,td{
+    border: 2px solid #fff;
+    /* border-collapse: collapse; */
+}
+a{
+    border: 2px solid #fff;
+    /* border-color: #fff; */
+    float: right;
+    margin-right:670px;
+}

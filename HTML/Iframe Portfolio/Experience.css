@@ -1,0 +1,28 @@
+*{
+    background-color: black;
+    /* margin: 50px; */
+    color: #fff;
+}
+form{
+    text-align: center;
+}
+i{
+    height: 60px;
+    width: 50px;
+    margin-top: 30px;
+}
+span content{
+    border: 2px solid #fff;
+}
+a{
+    border: 2px solid #fff;
+}
+/* span .a{
+    background-color: navy;
+    color: #fff;
+    padding: 6px 25px 6px 25px;
+} */
+span :hover{
+    background-color: rgb(73, 73, 228);
+    color: #fff;
+}

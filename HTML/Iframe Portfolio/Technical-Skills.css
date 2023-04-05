@@ -1,0 +1,10 @@
+*{
+    background-color: black;
+    color: #fff;
+    /* border: 2px solid #fff; */
+}
+div {
+    /* margin: auto; */
+    width: 100%;
+    text-align: center;
+}

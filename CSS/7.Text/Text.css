@@ -38,8 +38,8 @@ div{
     text-shadow: 10px 9px 7px yellowgreen;
 }
 i{
-    /* vertical-align: baseline; 
-    /* vertical-align: bottom; */
+    /* vertical-align: baseline;  */
+    vertical-align: bottom;
     /* vertical-align: middle; */
     /* vertical-align: sub; */
     /* vertical-align: super; */

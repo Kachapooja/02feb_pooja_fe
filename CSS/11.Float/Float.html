@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        .container{
+            height: 600px;
+            width: auto;
+            border: 10px double black;
+        }
+        .user{
+            height: 150px;
+            width: 150px;
+            background-color: rgb(226, 165, 165);
+            color: lightgreen;
+            border: 2px solid darkgreen;
+        }
+        .user-1{
+            width: 100%;
+        }
+        .user-2{
+            float: right;
+        }
+        .user-3{
+            float: right;
+        }
+        .user-4{
+            /* float: left; */
+            clear: left;
+        }
+        .user-5{
+            /* float: left; */
+            /* clear: left; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="user user-1">1</div>
+        <div class="user user-2">2</div>
+        <div class="user user-3">3</div>
+        <div class="user user-4">4</div>
+        <div class="user user-5">5</div>
+    </div>
+</body>
+
+</html>
