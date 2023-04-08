@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="Slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $('#slider').cycle('fade');
+            // $('#slider').cycle('zoom');
+            //$('#slider').cycle('scrollRight');
+            //$('#slider').cycle('scrollleft');
+            // $('#slider').cycle('shuffle');
+            $('#slider').cycle('scrollRight, zoom, shuffle');
+        })
+    </script>
+</head>
+<body>
+    <section id="slider">
+        <img src="https://t3.ftcdn.net/jpg/02/41/43/18/360_F_241431868_8DFQpCcmpEPVG0UvopdztOAd4a6Rqsoo.jpg" alt="">
+        <img src="https://www.kotak.com/content/dam/Kotak/product_card_images/how-credit-cards-enhance-your-shopping-experience.jpg" alt="">
+        <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_522735456_249841.jpg" alt="">
+        <img src="https://t4.ftcdn.net/jpg/03/25/70/05/360_F_325700552_5QJD12HDtfii4xkGXnjLworiJMedgZQc.jpg" alt="">
+        <img src="https://www.digitalmenta.com/wp-content/uploads/2019/04/potenciar-campanas-shopping.jpg" alt="">
+    </section>
+</body>
+</html>
