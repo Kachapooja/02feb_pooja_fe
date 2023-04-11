@@ -1,3 +1,4 @@
+/* Header Start */
 *{
     margin: 0;
     padding: 0;
@@ -31,3 +32,33 @@
         color: #000;
         line-height: 70px;
     }
+    /* Header End */
+
+    /* Slider Start */
+    .image-1 img{
+        height: 500px;
+        width: 20%;
+        float: left;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+    #slider img{
+        height: 500px;
+        width: 100%;
+    }
+    #slider{
+        border: 1px solid black;
+        height: 500px;
+        width: 60%;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .image-2 img{
+        height: 500px;
+        width: 20%;
+        float: left;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+    /* Slider End */

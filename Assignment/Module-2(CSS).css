@@ -1,3 +1,24 @@
 h1{
     text-align: center;
 }
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+.image{
+    filter: opacity(0.5);
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+}
+/* Que:-5 */
+h2{
+    background-color: lightcoral;
+}
+div{
+    background-color: blueviolet;
+}
+p{
+    background-color: chartreuse;
+}
