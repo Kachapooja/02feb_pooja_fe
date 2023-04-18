@@ -127,7 +127,7 @@
         <b><u>Output:</b></u><br><br>        
             <div class="image">
                 <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg" alt="flowers"> 
-            </div> <br>
+            </div> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></button> <hr>
 
     <b><u>Que:6</u></b><br><br>
     How can the background color of an element be changed? <br><br>
@@ -135,16 +135,157 @@
     
         <b><u>Example:</b></u><br><br>     
 
-            < h2>CSS Background-color Element< /h2>
-            < div>This is a div element.
-            < p>This is a paragraph tag and its Background-color.< /p>
-            This is also a div element.< /div>
+            < h2>CSS Background-color Element< /h2> <br>
+            < div>This is a div element. <br>
+            < p>This is a paragraph tag and its Background-color.< /p> <br>
+            This is also a div element.< /div> <br> <br>
+
+        <b><u>Output:</b></u><br> 
+        
+        <h2>CSS Background-color Element</h2>
+        <div class="bgcolor">This is a div element.
+        <h5>This is a paragraph tag and its Background-color.</h5>
+        This is also a div element.</div><hr>
+
+    <b><u>Que:7</u></b><br><br>
+    How can image repetition of the backup be controlled? <br><br>
+    <b><u>Ans:</u></b><br><br>
+
+        We will using the background-repeat property that will help us to control the repetition of the image. <br><br>
+
+        <b><u>background-Property</u></b>
+        <ol>
+            <li>background-repeat: repeat-x;</li>
+            <li>background-repeat: repeat-y;</li>
+            <li>background-repeat: repeat;</li>
+            <li>background-repeat: norepeat;</li>
+            <li>background-repeat: initial;</li>
+            <li>background-repeat: inherit;</li>
+        </ol> <hr>
+
+        <b><u>Repeat-x</u></b>  <div class="img-1"></div><br> <hr>
+        <b><u>Repeat-y</u></b>  <div class="img-2"></div><br> <hr>
+        <b><u>Repeat</u></b>    <div class="img-3"></div><br> <hr>
+        <b><u>No-Repeat</u></b> <div class="img-4"></div><br> <hr>
+        <b><u>Initial</u></b>   <div class="img-5"></div><br> <hr>
+        <b><u>Inherit</u></b>   <div class="img-6"></div><br> <hr>
+        
+    <b><u>Que:8</u></b><br><br>
+    What is the use of the background-position property? <br><br>
+    <b><u>Ans:</u></b><br><br>
+
+        Background-position property set to the starting position of a background image. <br><br>
+        The Background-image is placed default to the <b>top-left</b> corner of an element with a repetition on both horizontally & vertically. <br><br>
+
+        <b><u>Background-position</u></b> <br>
+        <ul>
+            <li>background-position: left top</li>
+            <li>background-position: left center</li>
+            <li>background-position: left bottom</li>
+            <li>background-position: center top</li>
+            <li>background-position: center center</li>
+            <li>background-position: center bottom</li>
+            <li>background-position: right top</li>
+            <li>background-position: right center</li>
+            <li>background-position: right bottom</li>
+            <li>background-position: 25% 75%</li>
+            <li>background-position: 30px 80px</li>
+        </ul>
 
         <b><u>Example:</b></u><br><br> 
         
-        <h2>CSS Background-color Element</h2>
-        <div>This is a div element.
-        <p>This is a paragraph tag and its Background-color.</p>
-        This is also a div element.</div>
+        <b><u>Background-position: left top</u></b><br><br>
+
+        <b><u>CSS</u></b> <br><br>
+        .background-position{ <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-EqWsFXuHleQfVIuV5kvVXkEznd7eG8869yAbUU59w&usqp=CAU&ec=48600112"); <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;background-repeat: no-repeat; <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;background-position: left top; <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;border: 1px solid black; <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;background-color: brown; <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;height: 300px; <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;width: 350px; <br>
+        } <br><br>
+        <div class="background-position"></div> <br><hr>
+
+    <b><u>Que:9</u></b><br><br>
+    Which property controls the image scroll in the background? <br><br>
+    <b><u>Ans:</u></b><br><br>
+
+        <ul>
+            <li>The <b><u>Background-attachment</u></b> property in CSS is used to specify the kind of attachment of the background image. </li>
+            <li>The <b><u>Background-attachment</u></b> property set to <b><u>scroll</u></b> or make it remain <u><b>fixed</u></b>.</li>
+            <li>The <b><u>Background-attachment</u></b> property applied to all <u>HTML elements.</u></li>
+        </ul>
+
+        <b><u>1.Background-attachment: Scroll</u></b> <br><br>
+
+        <div class="scroll">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsam. Quasi eos unde ipsa autem ducimus nihil quos necessitatibus inventore.</p><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsam. Quasi eos unde ipsa autem ducimus nihil quos necessitatibus inventore.</p><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsam. Quasi eos unde ipsa autem ducimus nihil quos necessitatibus inventore.</p><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsam. Quasi eos unde ipsa autem ducimus nihil quos necessitatibus inventore.</p><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsam. Quasi eos unde ipsa autem ducimus nihil quos necessitatibus inventore.</p><br><br>
+        </div><br>
+
+        <b><u>2.Background-attachment: Fixed</u></b> <br><br>
+
+        <div class="fixed">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsam. Quasi eos unde ipsa autem ducimus nihil quos necessitatibus inventore.</p><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsam. Quasi eos unde ipsa autem ducimus nihil quos necessitatibus inventore.</p><br><br>
+        </div><hr><br>
+
+    <b><u>Que:10</u></b><br><br>
+    Why should background and color be used as separate properties? <br><br>
+    <b><u>Ans:</u></b><br><br>
+
+        <b><u>Background-color</u></b><br>
+        <ul>
+            <li>The background-color property sets the background color of an element.</li> 
+
+            <li>The background of an element is the total size of the element, including padding and border. </li>
+        </ul>
+
+        <b><u>Color</u></b><br>
+        <ul>
+            <li>The color property specifies the color of text.</li> 
+
+            <li><b>Use a background color combined with a text color that makes the text easy to read.</b></li>
+        </ul>
+
+        <b><u>Example:</b></u><br><br>
+
+        <h3>Background-color and its Text Color</h3> <hr>
+    
+    <b><u>Que:11</u></b><br><br>
+    How to center block elements using CSS1? <br><br>
+    <b><u>Ans:</u></b><br><br>
+
+        There are two steps to center a block-level Element:- <br><br>
+        <ol>
+            <li>Width</li> <br>
+                We need to define the external width. <br><br>
+                Block-level elements have the default width of 100% of the webpage. <br><br>
+                so for centering the block element,we are giving to the external width. <br><br>
+            <li>Margin</li> <br>
+                we need to align that space properly that's why we should use margin property. <br><br>
+                So for centering the element we must set left-margin to auto and right-margin to auto. <br><br>
+        </ol>
+
+        <b><u>Example:</b></u><br><br>
+
+        <div id="block">
+            <p>This is paragraph Tag!</p>
+        </div> <hr>
+
+    <b><u>Que:12</u></b><br><br>
+    How to maintain the CSS specifications?<br><br>
+    <b><u>Ans:</u></b><br><br>
+    
+    <b><u>Que:13</u></b><br><br>
+    What are the ways to integrate CSS as a web page?<br><br>
+    <b><u>Ans:</u></b><br><br>
+
+    <b>CSS</b> can be added to HTML documents in 3 ways
 </body> 
 </html>

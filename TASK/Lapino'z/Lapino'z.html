@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Lapino'z/lapino'z logo.png">
+    <title>La Pinoz Pizza</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#slider').cycle('scrollLeft, scrollLeft');
+        })
+        </script>
+        <link rel="stylesheet" href="Lapino'z.css">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div class="logo">
+            <img src="https://www.uengage.in/images/addo/logos/lapinoz-logo.png">
+        </div>
+        <div class="menu">
+            <ul>
+                <li>Home</li>
+                <li>Order Online</li>
+                <li>Store Locator</li>
+                <li>Franchaise Enquiry</li>
+                <li><a href="https://api.whatsapp.com/send?phone=8758046704&text=hii">Contact Us</a></li>
+                <li><input type="submit" value="Login"></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Slider Start -->
+     <div class="container">
+    <div class="content-1">Order Pizza On Your Area</div>
+    <div class="content-2">
+        <select name="city" id="">
+            <option value="">Select Your City</option>
+            <option>Ajmer</option>
+            <option>Ahemdabad</option>
+            <option>Agra</option>
+            <option>Amreli</option>
+            <option>Bardoli</option>
+            <option>Bharuch</option>
+            <option>Rajkot</option>
+            <option>Vadodara</option>
+            <option>Surat</option>
+        </select>
+        <select name="outlet" id="">
+            <option value="">Select Your Favorite Outlet</option>
+            <option>
+                <a href="https://www.google.com/maps/place/150+Feet+Ring+Rd,+Gujarat/@22.2758062,70.7760181,17z/data=!3m1!4b1!4m6!3m5!1s0x3959ca2393e9eecf:0x214123375fef5198!8m2!3d22.2758062!4d70.7782068!16s%2Fg%2F11_svpbb8">150 Ft Ring Road</a>
+                </option>
+            <option>Fun n Food(New Ring Road)</option>
+            <option>Nr Crystal Mall</option>
+            <option>Pedak Road</option>
+            <option>Raiya Circle</option>
+            <option>Virani Chowk</option>
+        </select>
+    </div>
+    <div class="content-3">Download The App For Seamless Experience</div>
+    <div class="content-4"><!--<span class="icon" style="padding: 25px 20px;">-->Download Now<!--</span>--></div>
+</div> 
+    <div id="slider">
+        <div class="img1">
+            <img src="https://lapinozpizza.in/assets/wla_new/lapinoz/img/banner1.jpg">
+            <span class="text-1">More Than 550+ Outlates</span>
+            <span class="text-2">Live Across India</span>
+        </div>
+        <div class="img2">
+            <img src="https://lapinozpizza.in/assets/wla_new/lapinoz/img/banner2.jpg">
+            <span class="text-3">The Giant Pizza Slices</span>
+            <span class="text-4">Now Available In Your City</span>
+        </div>
+        <div class="img3">
+            <img src="https://lapinozpizza.in/assets/wla_new/lapinoz/img/banner3.jpg">
+            <span class="text-5">La pino'z Going International</span>
+            <span class="text-6">Across 6 Countries</span>
+        </div>
+    </div>
+    <!-- Slider End -->
+</body>
+
+</html>

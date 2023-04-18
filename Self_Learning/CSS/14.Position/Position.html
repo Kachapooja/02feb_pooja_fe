@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        /* body{
+            height: 1000px;
+            width: 100%;
+        } */
+        .static{
+            background-color: crimson;
+            height: 500px;
+            width: 500px;
+            color: aqua;
+            position: static;
+            top: 20px;
+            /* Position no change */
+        }
+        .fixed{
+            background-color: lightcoral;
+            height: 100px;
+            width: 150px;
+            color: blue;
+            position: fixed;
+            bottom: 50px;
+            right: 0;
+        }
+        .color-1{
+            height: 300px;
+            width: 700px;
+            background-color: aqua;
+            /* position: sticky; */
+            /* top: 0; */
+        }
+        .color-2{
+            height: 200px;
+            width: 700px;
+            background-color: red;
+            /* position: sticky; */
+            /* bott: 0; */
+        }
+        .sticky{
+            background-color: chocolate;
+            height: 200px;
+            width: 600px;
+            color: darkgreen;
+            bottom: 0;
+            position: sticky;
+        }
+        .relative{
+            background-color: rgb(110, 175, 110);
+            color: crimson;
+            height: 300px;
+            width: 400px;
+            position: relative;
+            border: 1px solid black;
+            margin: auto;
+        }
+        .absolute-1{
+            background-color: rgb(243, 199, 205);
+            color: #000;
+            height: 150px;
+            width: 200px;
+            border: 1px solid green;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .absolute-2{
+            background-color: lightseagreen;
+            color: #000;
+            height: 150px;
+            width: 200px;
+            border: 1px solid green;
+            position: absolute;
+            top: 0;
+            /* bottom: 0; */
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="static">Static Position</div>
+    <div class="fixed">Fixed Position</div>
+    <div class="container">
+        <div class="color-1"></div>
+        <div class="color-2"></div>
+        <div class="sticky">Sticky Position</div>
+    </div>
+    <div class="relative">Relative Position
+        <div class="absolute-1">Absolute Position</div>
+        <div class="absolute-2">Absolute Position</div>
+    </div>
+</body>
+</html>
