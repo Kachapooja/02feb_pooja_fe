@@ -165,6 +165,39 @@ p{
 }
 /* Que:-11 End*/
 
+/* Que:-12 Satrt */
+
+strong {
+    background-color: red;
+    color: white;
+}
+.test {
+    color: crimson;
+}
+cite {   
+    color: green;
+}
+#test-1{
+    color: maroon;
+}
+.test-2{
+    color: orange;
+}
+i{
+    color: green;
+}
+#test-3{
+    color: blue;
+}
+.test-4{
+    color: orangered;
+}
+em{
+    color: green;
+}
+
+/* Que:-12 End */
+
 /* Que:-13 Start*/
 .internal{
     background-color: yellowgreen;
