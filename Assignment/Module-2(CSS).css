@@ -1,13 +1,23 @@
 h1{
     text-align: center;
 }
-/* Que:-3 */
+h2{
+    background-color: powderblue;
+    display: inline;
+    padding: 5px;
+}
+b{
+    font-size: 20px;
+}
+/* Que:-3 Start*/
 table,th,td{
     border: 2px solid black;
     border-collapse: collapse;
     margin: auto;
 }
-/* Que:-5 */
+/* Que:-3 End*/
+
+/* Que:-5 Start*/
 .image{
     filter: opacity(0.5);
     height: 50px;
@@ -15,8 +25,10 @@ table,th,td{
     border: 2px solid black;
     /* margin: auto; */
 }
-/* Que:-6 */
-h2{
+/* Que:-5 End*/
+
+/* Que:-6 Start*/
+h3{
     background-color: lightcoral;
 }
 .bgcolor{
@@ -27,7 +39,9 @@ h2{
 h5{
     background-color: rgb(214, 166, 159);
 }
-/* Que:-7 */
+/* Que:-6 End*/
+
+/* Que:-7 Start*/
 .img-1{
     background-repeat: repeat-x;
     background-image: url("https://cdn.bhdw.net/im/tom-and-jerry-dancing-fun-under-the-lights-wallpaper-105966_w635.webp");
@@ -70,7 +84,9 @@ h5{
     height: 350px;
     width: 400px;
 }
-/* Que:-8 */
+/* Que:-7 End*/
+
+/* Que:-8 Start*/
 .background-position{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-EqWsFXuHleQfVIuV5kvVXkEznd7eG8869yAbUU59w&usqp=CAU&ec=48600112");
     background-repeat: no-repeat;
@@ -81,7 +97,9 @@ h5{
     height: 300px;
     width: 350px;
 }
-/* Que:-9 */
+/* Que:-8 End*/
+
+/* Que:-9 Start*/
 .scroll{
     background-image: url("https://www.theloadout.com/wp-content/sites/theloadout/2022/09/multiversus-tom-and-jerry-buff-nerf-reaction-550x309.jpg");
     background-repeat: no-repeat;
@@ -116,7 +134,9 @@ h5{
     background-color: powderblue;
     border: 4px double navy;
 }
-/* Que:-10 */
+/* Que:-9 End*/
+
+/* Que:-10 Start*/
 h3 { 
     color:#000;
     background-color:lightcoral;
@@ -125,12 +145,14 @@ h3 {
     text-align: center;
     font-size: xx-large;
 }
-/* Que:-11 */
+/* Que:-10 End*/
+
+/* Que:-11 Start*/
 #block{
     background-color: tomato;
     /* text-align: center; */
     /* height: 150px; */
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding: 10px;
     color: #000;
@@ -138,6 +160,182 @@ h3 {
 p{
     background-color: powderblue;
     /* text-align: center; */
-    margin: 260px;
+    margin: 290px;
     display: inline;
 }
+/* Que:-11 End*/
+
+/* Que:-13 Start*/
+.internal{
+    background-color: yellowgreen;
+    color: #000;
+    font-size: 30px;
+    padding: 5px;
+}
+.external{
+    background-color: tomato;
+    color: #000;
+    font-size: 30px;
+    padding: 5px;
+}
+/* Que:-13 End*/
+
+/* Que:-14 Start*/
+
+h7 {
+    color: #fff;
+    background-color: teal;
+    padding: 5px;
+    font-size:15px;
+   
+}
+i{
+    font-size:15px;
+    background-color:crimson;
+    Color:#fff;
+    padding:5px;
+    display:block;
+}
+/* Que:-14 End*/
+
+/* Que:-15 Start*/
+
+.sheet{
+    background-color: lightseagreen;
+    color: #000;
+    font-size: 15px;
+    padding: 5px;
+    display: inline;
+}
+
+/* Que:-15 End*/
+
+/* Que:-17 Start */
+
+p {
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background-color: teal;
+}
+.colour{
+    color: orangered;
+    font-size: x-large;    
+}
+#id1{
+    color: green;
+    font-size: x-large;
+    background-color: lightseagreen;
+    display: inline;
+}
+/* *{
+    color: navy;
+    font-size: x-large;
+    background-color: lightblue;
+} */
+div + p{
+    background-color: crimson;
+    color: #fff;
+    font-size: 15px;
+}
+/* Que:-17 End */
+
+/* Que:- 19 Start */
+h4{
+    color: navy;
+}
+ins:first-child {
+    color: sienna;
+    background-color: aqua;
+    font-size: 20px;
+    border-radius: 15%;
+}
+
+/* Que:- 19 End */
+
+/* Que:-20 Start */
+
+.main{
+    background-color: rgb(252, 246, 246);
+    height: 650px;
+    position: relative;
+}
+.thumb1{
+    position: absolute;
+    top: 20px;
+    left: 90px;
+}
+.thumb2{
+    position: absolute;
+    top: 16852px;
+    left: 500px;
+}
+.thumb3{
+    position: absolute;
+    top: 16852px;
+    left: 900px;
+}
+.thumb4{
+    position: absolute;
+    top: 17170px;
+    left: 98px;
+}
+.thumb5{
+    position: absolute;
+    top: 17170px;
+    left: 500px;
+}
+.thumb6{
+    position: absolute;
+    top: 17170px;
+    left: 900px;
+}
+.thumbnail{
+    background-color: darkslategrey;
+    color: #fff;
+    text-align: center;
+    height: 200px;
+    width: 350px;
+    font-size: x-large;
+    line-height: 130px;
+    position: absolute;
+}
+.t1{
+    background-color: #fff;
+    color: darkslategrey;
+    height: 150px;
+    position: absolute;
+    width: 350px;
+    font-size: medium;
+    position: relative;
+    top: 125px;
+}
+.text{
+    position: absolute;
+    top: 20px;
+}
+.t2{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+}
+.txt1{
+    /* position: absolute; */
+    display: inline;
+    border: solid;
+    padding: 2px;
+}
+.txt2{
+    display: inline;
+    border: solid;
+    padding: 2px;
+}
+.t3{
+    position: absolute;
+    top: 120px;
+    right: 10px;
+}
+
+
+
+/* Que:-20 End */
