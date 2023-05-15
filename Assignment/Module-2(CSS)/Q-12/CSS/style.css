@@ -1,0 +1,36 @@
+h2{
+    background-color: powderblue;
+    display: inline;
+    padding: 5px;
+}
+b{
+    font-size: 20px;
+}
+strong {
+    background-color: red;
+    color: white;
+}
+.test {
+    color: crimson;
+}
+cite {   
+    color: green;
+}
+#test-1{
+    color: maroon;
+}
+.test-2{
+    color: orange;
+}
+i{
+    color: green;
+}
+#test-3{
+    color: blue;
+}
+.test-4{
+    color: orangered;
+}
+em{
+    color: green;
+}

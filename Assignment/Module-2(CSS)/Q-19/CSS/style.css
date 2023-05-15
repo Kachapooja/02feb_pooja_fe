@@ -1,0 +1,17 @@
+h2{
+    background-color: powderblue;
+    display: inline;
+    padding: 5px;
+}
+b{
+    font-size: 20px;
+}
+h4{
+    color: navy;
+}
+ins:first-child {
+    color: sienna;
+    background-color: aqua;
+    font-size: 20px;
+    border-radius: 15%;
+}

@@ -1,0 +1,22 @@
+h2{
+    background-color: powderblue;
+    display: inline;
+    padding: 5px;
+}
+b{
+    font-size: 20px;
+}
+h7 {
+    color: #fff;
+    background-color: teal;
+    padding: 5px;
+    font-size:15px;
+   
+}
+i{
+    font-size:15px;
+    background-color:crimson;
+    Color:#fff;
+    padding:5px;
+    display:block;
+}

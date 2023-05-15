@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Q-17</title>
+</head>
+<body>
+    
+    <hr><hr>
+
+    <!-- Que:-17 Start -->
+
+    <b><u>Que:17</u></b><br><br>
+    <h2>What is the meaning of the CSS selector?</h2><br><br>
+    <b><u>Ans:</u></b><br><br>
+
+        CSS selectors are used to select the HTML elements we want to style.
+
+        CSS selectors are devide in 6 categories:
+
+            <ol>
+                <b><li>Element Selector</li>
+                <li>Class Selectors</li>
+                <li>Id Selectors</li>
+                <li>Universal Selectors</li>
+                <li>Adjucent Selectors</li>
+                <li>General Selectors</li>
+                <li>Group Selectors</li>
+                <li>Child Selectors</li></b>
+            </ol>
+
+            <b><u>1.Element Selector:</u></b> The Element Selector selects HTML elements based on the element name. <br><br>
+           
+        <b><u>Example:</u></b> <br> <br>
+
+            &lt;head&gt; <br>
+            &lt;style&gt; <br>
+
+                &nbsp;&nbsp;p { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;text-align: center; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color: purple; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;padding: 2px;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-color: teal;<br>
+                &nbsp;&nbsp;}  <br>
+                
+            &lt;/style&gt; <br>
+            &lt;/head&gt; <br>
+
+                < body> <br>    
+
+                &nbsp;&nbsp;&nbsp;< p>Every paragraph will be affected by the style.< /p> <br>
+                &nbsp;&nbsp;&nbsp;< p id="p1">Paragraph Tag!< /p> <br>
+                &nbsp;&nbsp;&nbsp;< p>Also Paragraph Tag!< /p> <br>
+                
+                < /body> <br><br>
+
+        <b><u>Output:</u></b> <br> <br>
+
+            <p>Every paragraph will be affected by the style.</p> <br> <br>
+            <p id="p1">Paragraph Tag!</p> <br> <br>
+            <p>Also Paragraph Tag!</p> <br> <br>
+
+            <b><u>2.Class Selector:</u></b> The Class Selector(.) selects HTML elements with a specific class attribute. <br><br>
+
+        <b><u>Example:</u></b> <br> <br>
+
+                &lt;style&gt; <br>
+ 
+                    &nbsp;&nbsp;.colour { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;color: orangered; <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;font-size: x-large; <br>
+                    &nbsp;&nbsp;} <br>
+
+                &lt;style&gt; <br>
+
+                < body> <br>
+                
+                    &nbsp;&nbsp;&nbsp;&nbsp;< div class="colour">Div Class Tag!< /div> <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;< item class="colour">Item Class Tag!< /p> <br> 
+                
+                < /body> <br><br>
+
+        <b><u>Output:</u></b> <br> <br><br>
+
+                <div class="colour">Div Class Tag!</div>
+                <item class="colour">Item Class Tag!</item> <br><br>
+
+            <b><u>3.Id Selector:</u></b> The Id element (#) is unique within a page, so the id selector is used to select one unique element! <br><br>
+
+        <b><u>Example:</u></b> <br> <br>
+
+            &lt;style&gt; <br>
+
+                &nbsp;&nbsp;#id1 { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color: green; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;font-size: x-large; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-color: lightseagreen; <br>
+                &nbsp;&nbsp;} <br>
+
+            &lt;style&gt; <br>
+
+            < body> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;< div id="id1">Id Selectors</div> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;< div>Div Tag!</div><br>
+            < /body> <br><br>
+
+        <b><u>Output:</u></b> <br> <br><br>
+
+            <div id="id1">Id Selectors</div> <br> <br>
+            <div>Div Tag!</div> <br>
+
+            <b><u>4.Universal Selector:</u></b> The universal selector (*) selects all HTML elements on the page. <br><br>
+        
+        <b><u>Example:</u></b> <br> <br>
+
+            &lt;style&gt; <br>
+
+                &nbsp;&nbsp;* { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color: navy; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;font-size: x-large; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-color: lightblue; <br>
+                &nbsp;&nbsp;} <br>
+
+            &lt;style&gt; <br>
+
+            < body> <br>
+                < u>Underline Tag!< /u>  <br>
+                < mark>Mark Tag!< /mark> <br>
+                < del>Delete Tag!< /del> <br>
+                < ins>Insight Tag!< /ins> <br>
+            < /body> <br><br>
+
+        <b><u>Output:</u></b> <br> <br>
+
+            <u>Underline Tag!</u> <br>
+            <mark>Mark Tag!</mark> <br>
+            <del>Delete Tag!</del> <br>
+            <ins>Insight Tag!</ins> <br> <br>
+
+            <b><u>5.Adjucent Selector:</u></b> Adjucent(immediately follow) Sibling Selectors(+) is used to select element that is directly after another specific element. <br><br>
+
+        <b><u>Example:</u></b> <br> <br>
+
+            If we give css to div tag and use Adjecent Sibling Selector then 1st p tag get
+            diffrent css than their p tag. <br> <br>
+
+            <b><u>CSS</u></b> <br><br>
+                &nbsp;&nbsp;div + p { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-color:crimson; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color:#fff; <br>
+                &nbsp;&nbsp;} <br> <br>
+
+            <b><u>6.General Selector:</u></b> General Sibling Selectors(~) is used to selects all elements that are next siblings of a specified element. <br><br>
+
+        <b><u>Example:</u></b> <br> <br>
+
+            If we give css to div tag and use General Sibling Selector then next line p tag get same css. <br><br> 
+
+            <b><u>CSS</u></b> <br><br>
+                    &nbsp;&nbsp;div ~ p { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;background-color:crimson; <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;color:#fff; <br>
+                    &nbsp;&nbsp;} <br><br>
+
+            <b><u>8.Group Selector:</u></b>The Group Selectors is used to all the HTML elements with the same style definitions. <br> <br>
+
+            <b><u>CSS</u></b> <br><br>
+                &nbsp;&nbsp;h1, h2, p { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-color:crimson; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color:#fff; <br>
+                &nbsp;&nbsp;} <br><br>
+
+            <b><u>9.Child Selector:</u></b>The Child Selector(>) selects is used an element which is inside of another element. <br><br>
+
+        <b><u>Example:</u></b> <br> <br>
+
+            <b><u>CSS</u></b> <br> <br>
+                &nbsp;&nbsp;div > p { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-color:crimson; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color:#fff; <br>
+                &nbsp;&nbsp;} <br> <hr><hr>
+
+        <!-- Que:-17 End -->
+</body>
+</html>

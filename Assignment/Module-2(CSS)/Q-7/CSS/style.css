@@ -1,0 +1,50 @@
+h2{
+    background-color: powderblue;
+    display: inline;
+    padding: 5px;
+}
+b{
+    font-size: 20px;
+}
+.img-1{
+    background-repeat: repeat-x;
+    background-image: url("https://cdn.bhdw.net/im/tom-and-jerry-dancing-fun-under-the-lights-wallpaper-105966_w635.webp");
+    background-size: 200px 100px;
+    height: 100px;
+    width: 100%;
+}
+.img-2{
+    background-repeat: repeat-y;
+    background-image: url("https://cdn.bhdw.net/im/tom-and-jerry-dancing-fun-under-the-lights-wallpaper-105966_w635.webp");
+    background-size: 200px 100px;
+    height: 300px;
+    width: 200px;
+}
+.img-3{
+    background-repeat: repeat;
+    background-image: url("https://cdn.bhdw.net/im/tom-and-jerry-dancing-fun-under-the-lights-wallpaper-105966_w635.webp");
+    background-size: 200px 100px;
+    height: 350px;
+    width: 100%;
+}
+.img-4{
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.bhdw.net/im/tom-and-jerry-dancing-fun-under-the-lights-wallpaper-105966_w635.webp");
+    background-size: 250px 200px;
+    height: 200px;
+    width: 250px;
+}
+.img-5{
+    background-repeat: initial;
+    background-image: url("https://cdn.bhdw.net/im/tom-and-jerry-dancing-fun-under-the-lights-wallpaper-105966_w635.webp");
+    background-size: 200px 100px;
+    height: 300px;
+    width: 600px;
+}
+.img-6{
+    background-repeat: inherit;
+    background-image: url("https://cdn.bhdw.net/im/tom-and-jerry-dancing-fun-under-the-lights-wallpaper-105966_w635.webp");
+    background-size: 200px 100px;
+    height: 350px;
+    width: 400px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Q-12</title>
+</head>
+<body>
+    <hr><hr>
+
+    <!-- Que:-12 Start -->
+
+    <b><u>Que:12</u></b><br><br>
+    <h2>How to maintain the CSS specifications?</h2><br><br>
+    <b><u>Ans:</u></b><br><br>
+
+            When more than one CSS rule is applied to an element, Browser decides which specific element to apply to.The group of rules that bronzers follow is called a specification. <br><br>
+    
+        <b><u>Example:-1</u></b><br><br>
+
+            we will apply to CSS style by external stylesheet it has become to the lowest precedence compare to internal and inline CSS. <br><br>
+
+        <b><u>CSS:</u></b> <br><br>
+    
+            &lt;head&gt; <br>
+                &lt;style&gt; <br>
+                &nbsp;&nbsp;strong { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-color: red; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color: white; <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+                &lt;/style&gt; <br>
+            &lt;/head&gt; <br><br>
+     
+        <b><u>HTML:</u></b><br><br>
+
+                &nbsp;&nbsp;&nbsp;< body> <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;< strong>Strong Tag!< /strong><br>
+                &nbsp;&nbsp;&nbsp;< /body> <br><br>
+
+        <b><u>Output:</u></b> <br><br>
+
+            <strong>Strong Tag!</strong><br><br>
+
+        <b><u>Example:-2</u></b> <br><br>
+
+            we will apply to class selector and one element. Apply to crimson color for class and green color for element.Now text will show the green color because class is given higher priority. <br><br>
+
+        <b><u>CSS:</u></b><br><br>
+
+            &lt;head&gt; <br>
+                &lt;style&gt; <br>
+                &nbsp;&nbsp;.test { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color: crimson;} <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;cite{color: green; <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+                &lt;/style&gt; <br>
+            &lt;/head&gt; <br><br>
+     
+        <b><u>HTML:</u></b><br><br>
+
+            &nbsp;&nbsp;&nbsp;< body> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;< cite class="test">Cite Tag!< /cite><br>
+            &nbsp;&nbsp;&nbsp;< /body> <br><br>
+
+        <b><u>Output:</u></b><br><br>
+
+            <cite class="test">Cite Tag!</cite><br><br>
+
+        <b><u>Example:-3</u></b><br><br>
+
+            we will apply to id selector and class selector.Apply to marron color for id and orange color for the class.Now text will show the maroon color because id is given higher priority. <br><br>
+
+            <b><u>CSS:</u></b><br><br>
+
+            &lt;head&gt; <br>
+                &lt;style&gt; <br>
+                &nbsp;&nbsp;#test-1{ <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color:maroon;<br>
+                &nbsp;&nbsp;&nbsp;} <br>
+                &nbsp;&nbsp;.test-2 { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color: orange;} <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;i{color: green; <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+                &lt;/style&gt; <br>
+            &lt;/head&gt; <br><br>
+     
+        <b><u>HTML:</u></b><br><br>
+
+            &nbsp;&nbsp;&nbsp;< body> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;< i class="test">italic Tag!< /i><br>
+            &nbsp;&nbsp;&nbsp;< /body> <br><br>
+
+        <b><u>Output:</u></b><br><br>
+
+            <i  id="test-1" class="test-2">italic Tag!</i><br><br>
+
+        <b><u>Example:-4</u></b><br><br>
+
+        we will apply to inline style for the "em" element.Apply to color in inline style to the pink.Now the inline style is given higher priority. <br><br>
+
+        <b><u>CSS:</u></b><br><br>
+
+            &lt;head&gt; <br>
+                &lt;style&gt; <br>
+                &nbsp;&nbsp;#test-3{ <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color:blue;<br>
+                &nbsp;&nbsp;&nbsp;} <br>
+                &nbsp;&nbsp;.test-4 { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;color: orangered;} <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;em{color: green; <br>
+                &nbsp;&nbsp;&nbsp;} <br>
+                &lt;/style&gt; <br>
+            &lt;/head&gt; <br><br>
+     
+        <b><u>HTML:</u></b><br><br>
+
+            &nbsp;&nbsp;&nbsp;< body> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;< id="test-3" class="test-4" style="color: red;">Emphasized Tag!< /em><br>
+            &nbsp;&nbsp;&nbsp;< /body> <br><br>
+
+        <b><u>Output:</u></b><br><br>
+
+            <em  id="test-3" class="test-4" style="color: red;">Emphasized Tag!</em><br><br>
+
+            Now the every element has own priority and position. <br><br>
+
+            <ul>
+                <li><b>Inline:</b> Inline style has higher priority.</li> <br>
+
+                <li><b>ID:</b> ID have the 2nd priority.</li> <br>
+
+                <li><b>Class:</b> Classes,pseudo-class and attribute are next priority.</li> <br>
+
+                <li><b>Element:</b> Elements,pseudo-elements have lower priority.</li> <br>
+            </ul> <hr><hr>
+
+
+        <!-- Que:-12 End -->
+</body>
+</html>

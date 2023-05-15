@@ -1,0 +1,19 @@
+h2{
+    background-color: powderblue;
+    display: inline;
+    padding: 5px;
+}
+b{
+    font-size: 20px;
+}
+h3{
+    background-color: lightcoral;
+}
+.bgcolor{
+    background-color: blueviolet;
+    /* height: 50px; */
+    /* text-align: center; */
+}
+h5{
+    background-color: rgb(214, 166, 159);
+}

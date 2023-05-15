@@ -1,0 +1,15 @@
+h2{
+    background-color: powderblue;
+    display: inline;
+    padding: 5px;
+}
+b{
+    font-size: 20px;
+}
+.image{
+    filter: opacity(0.5);
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    /* margin: auto; */
+}

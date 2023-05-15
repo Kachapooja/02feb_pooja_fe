@@ -1,0 +1,20 @@
+h2{
+    background-color: powderblue;
+    display: inline;
+    padding: 5px;
+}
+b{
+    font-size: 20px;
+}
+.internal{
+    background-color: yellowgreen;
+    color: #000;
+    font-size: 30px;
+    padding: 5px;
+}
+.external{
+    background-color: tomato;
+    color: #000;
+    font-size: 30px;
+    padding: 5px;
+}

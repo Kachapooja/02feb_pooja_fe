@@ -1,0 +1,23 @@
+h2{
+    background-color: powderblue;
+    display: inline;
+    padding: 5px;
+}
+b{
+    font-size: 20px;
+}
+#block{
+    background-color: tomato;
+    /* text-align: center; */
+    /* height: 150px; */
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    color: #000;
+}
+p{
+    background-color: powderblue;
+    /* text-align: center; */
+    margin: 290px;
+    display: inline;
+}

@@ -1,0 +1,42 @@
+h2{
+    background-color: powderblue;
+    display: inline;
+    padding: 5px;
+}
+b{
+    font-size: 20px;
+}
+.scroll{
+    background-image: url("https://www.theloadout.com/wp-content/sites/theloadout/2022/09/multiversus-tom-and-jerry-buff-nerf-reaction-550x309.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 500px;
+    /* width: 550px; */
+    /* margin: auto; */
+    background-size: 50% 50%;
+    background-color: powderblue;
+    border: 4px double navy;
+}
+.scroll p{
+    background-color: lightcoral;
+    /* text-align: center; */
+    margin: 30px;
+    padding: 0px;
+}
+.fixed p{
+    background-color: lightcoral;
+    margin: 30px;
+}
+.fixed{
+    background-image: url("https://www.theloadout.com/wp-content/sites/theloadout/2022/09/multiversus-tom-and-jerry-buff-nerf-reaction-550x309.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 550px;
+    /* width: 550px; */
+    /* margin: auto; */
+    background-size: 50% 50%;
+    background-color: powderblue;
+    border: 4px double navy;
+}

@@ -1,0 +1,29 @@
+h2{
+    background-color: powderblue;
+    display: inline;
+    padding: 5px;
+}
+b{
+    font-size: 20px;
+}
+p {
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background-color: teal;
+}
+.colour{
+    color: orangered;
+    font-size: x-large;    
+}
+#id1{
+    color: green;
+    font-size: x-large;
+    background-color: lightseagreen;
+    display: inline;
+}
+div + p{
+    background-color: crimson;
+    color: #fff;
+    font-size: 15px;
+}
