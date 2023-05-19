@@ -1,0 +1,429 @@
+h1{
+    text-align: center;
+}
+h3 {
+    background-color: cadetblue;
+    color: #fff;
+    display: inline-block;
+    font-size: x-large;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+hr {
+    border-top: #000 solid;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+b {
+    font-size: large;
+}
+
+/* Question:3 CSS start */
+.Q3 table,
+th,
+td {
+    border: 1.5px solid black;
+    border-collapse: collapse;
+}
+
+/* Question:3 CSS end */
+
+/* Question:5 CSS start */
+
+.Q5 {
+    background-color: cadetblue;
+    width: 100px;
+    color: #fff;
+    margin: 0px 300px;
+}
+
+.txt1 {
+    opacity: 1;
+    height: 100px;
+    border: solid black;
+}
+
+.txt2 {
+    opacity: 0.5;
+    height: 100px;
+    border: solid black;
+
+}
+
+.txt3 {
+    opacity: 0;
+    height: 100px;
+    border: solid black;
+
+}
+
+/* Question:5 CSS end */
+
+/* Question:6 CSS start */
+
+.bgcolor {
+    background-color: aqua;
+}
+
+/* Question:6 CSS end */
+
+/* Question:7 CSS start */
+
+.repet {
+    height: 350px;
+    width: 480px;
+    margin: 20px;
+    background-image: url(https://www.shutterstock.com/image-photo/man-hands-holding-global-network-260nw-1801568002.jpg);
+    border: solid #666;
+    border-radius: 15px;
+    background-color: cadetblue;
+    background-size: 250px;
+}
+
+.repeat {
+    background-repeat: repeat;
+}
+
+.repeat-x {
+    background-repeat: repeat-x;
+}
+
+.repeat-y {
+    background-repeat: repeat-y;
+}
+
+.no-repeat {
+    background-repeat: no-repeat;
+}
+
+/* Question:7 CSS end */
+
+/* Question:8 CSS start */
+
+.position {
+    height: 350px;
+    width: 550px;
+    border: solid #666;
+    border-radius: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5AgdPWH94oYR_Y3gfk8CHPNSuoBtXLPzVKjTrUaxUfw&usqp=CAU&ec=48600112);
+    background-repeat: no-repeat;
+    margin: 3px;
+    background-color: cadetblue;
+}
+
+.left {
+    background-position: left;
+}
+
+.right {
+    background-position: right;
+}
+
+.center {
+    background-position: center;
+}
+
+.left-top {
+    background-position: left top;
+}
+
+.left-bottom {
+    background-position: left bottom;
+}
+
+.right-top {
+    background-position: right top;
+}
+
+.right-bottom {
+    background-position: right bottom;
+}
+
+.center-top {
+    background-position: center top;
+}
+
+.center-bottom {
+    background-position: center bottom;
+
+}
+
+/* Question:8 CSS end */
+
+/* Question:9 CSS start */
+
+.attachment {
+    height: 250px;
+    width: 400px;
+    border: solid #666;
+    margin: 3px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdnxsvrXCGKVyk5B4cCiBCN9XdNyMD463BdpLJUoJPkw&usqp=CAU&ec=48600112);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.scroll {
+    background-attachment: scroll;
+}
+
+.fixed {
+    background-attachment: fixed;
+}
+
+.local {
+    background-attachment: local;
+}
+
+/* Question:9 CSS end */
+
+/* Question:10 CSS start */
+
+.background-color {
+    height: 200px;
+    width: 300px;
+    background-color: cadetblue;
+}
+
+.color {
+    height: 200px;
+    width: 300px;
+    background-color: darkcyan;
+    color: #fff;
+}
+
+.background {
+    height: 200px;
+    width: 300px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS43YJj4J2vfE0R2dCWfGbgdXfFKdZ65L4l-qzLKn5jdw&usqp=CAU&ec=48600112);
+}
+.Q10 li{
+    font-weight:bold;
+}
+.Q10 h1{   
+    text-align:center;   
+    font-size: large ;
+}   
+#rgb{  
+  color:rgb(255,0,0);  
+}  
+#rgba{  
+  color:rgba(255,0,0,0.5);  
+}  
+#hex{  
+  color:#EE82EE;  
+}  
+#short{  
+  color: #E8E;  
+}  
+#hsl{  
+  color:hsl(0,50%,50%);  
+}  
+#hsla{                
+  color:hsla(0,50%,50%,0.5);  
+}  
+#built{  
+  color:green;  
+}  
+/* Question:10 CSS end */
+
+/* Question:11 CSS start */
+
+.block {
+    height: 250px;
+    width: 300px;
+    background-color: cadetblue;
+    margin: auto;
+    font-size: large;
+}
+
+/* Question:11 CSS end */
+
+
+
+/* Question:12 CSS start */
+
+.style2 {
+    background-color: red;
+}
+
+.style1 {
+    background-color: yellow;
+}
+
+#paragraph {
+    background-color: red;
+}
+
+.example2 {
+    background-color: yellow;
+}
+
+#paragraph1 {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.example4 p {
+    color: red !important;
+    background-color: transparent !important;
+}
+
+.example4 .blue {
+    color: blue;
+}
+
+.example4 #paragraph {
+    color: purple;
+}
+/* Question:12 CSS end */
+
+/* Question:13 CSS start */
+
+.external {
+    height: 30px;
+    width: 150px;
+    background-color: cadetblue;
+}
+
+.internal {
+    height: 30px;
+    width: 150px;
+    background-color: crimson;
+}
+/* Question:13 CSS end */
+/* Question:14 CSS start */
+.Q14 p {
+    background-color: cadetblue;
+}
+/* Question:14 CSS end */
+
+/* Question:15 CSS start */
+
+.Q15 p {
+    background-color: cadetblue;
+}
+/* Question:15 CSS end */
+
+/* Question:19 CSS start */
+
+.Q19 h1 {
+    color: green;
+}
+
+/* Selector */
+.Q19 p:first-child {
+
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* Question:19 CSS end */
+
+
+/* Question:20 CSS start */
+
+.main {
+    height: 800px;
+    position: relative;
+    background-color: rgb(248, 246, 246);
+}
+
+.layout1 {
+    position: absolute;
+    top: 20px;
+    left: 55px;
+}
+
+.layout2 {
+    position: absolute;
+    top: 20px;
+    left: 445px;
+}
+
+.layout3 {
+    position: absolute;
+    top: 20px;
+    left: 835px;
+}
+
+.layout4 {
+    position: absolute;
+    top: 420px;
+    left: 55px;
+}
+
+.layout5 {
+    position: absolute;
+    top: 420px;
+    left: 445px;
+}
+
+.layout6 {
+    position: absolute;
+    top: 420px;
+    left: 835px;
+}
+
+.uper {
+    height: 180px;
+    width: 350px;
+    background-color: #666;
+    color: #fff;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 180px;
+    position: absolute;
+
+}
+
+.bottom {
+    height: 160px;
+    width: 350px;
+    color: #666;
+    position: absolute;
+    top: 180px;
+    position: relative;
+    background-color: #fff;
+}
+
+.text1 {
+    position: absolute;
+    top: 20px;
+}
+
+.text2 {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+
+.txtt1 {
+    display: inline;
+    border: solid;
+    padding: 3px;
+}
+
+.txtt2 {
+    display: inline;
+    border: solid;
+    padding: 3px;
+}
+
+.text3 {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+
+/* Question:20 CSS end */
