@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px lightblue;
+    color: darkblue;
+}
+h2{
+    background-color: lightgrey;
+    display: inline;
+    padding: 5px;
+    border-radius: 10px;
+}
+b{
+    font-size: 20px;
+}
+hr{
+    border-color: limegreen;
+}
+p{
+    font-size: 20px;
+}
+audio{
+    height: 60px;
+    width: 300px;
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+video{
+    height: 300px;
+    width: 500px;
+    border: 2px solid brown;
+}

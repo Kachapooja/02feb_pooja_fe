@@ -1,5 +1,48 @@
 h1{
     text-align: center;
-    color: rgba(53, 18, 148, 0.534);
-    font-family: monospace;
+    text-shadow: 5px 5px 5px lightblue;
+    color: darkblue;
+}
+h2{
+    background-color: lightgrey;
+    display: inline;
+    padding: 5px;
+    border-radius: 10px;
+}
+h3{
+    font-size: 25px;
+}h4{
+    font-size: 20px;
+}
+hr{
+    border-color: limegreen;
+}
+b{
+    font-size: 20px;
+}
+table,th,td{
+    border: 2px solid rgb(199, 60, 36);
+    border-collapse: collapse;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+}
+embed{
+    border: 2px solid brown;
+}
+img{
+    border: 1px solid crimson;
+    /* background-attachment: fixed; */
+    height: 200px;
+    width: 300px;
+}
+span{
+    color: rgb(73, 4, 44);
+    background: lightpink;
+}
+video{
+    height: 250px;
+    width: 500px;
+    border: 2px solid brown;
 }

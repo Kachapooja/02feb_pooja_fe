@@ -5,69 +5,272 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>Q-1</title>
-</head>
-<body>
-    
-    <hr><hr>
+    <title>Q-1</title><hr><hr>
 
     <h1>Que:1</h1>
 
-    <hr><hr>
+    <hr><hr> <br>
+    
+    <h2><u>What are the new tags added in HTML5?</u></h2> <br><br>
 
-    <h2>What are the new tags added in HTML5?</h2>
-
-    <b><u>Ans:</u></b>
+    <b><u>Ans:</u></b><br><br>
+</head>
+<body>
+    
+    
 
     HTML5 is a new version of HTML ( Hypertext markup language). <br><br>
-    
-    List of all elements in HTML5: <br><br>
 
-    <dl>
-        <dt>article:</dt>
-        <dd>defines as a blog entry or newspaper article</dd>
-        <dt>aside:</dt>
-        <dd>defines as a some content other than the content placed in it. </dd>
-        <dt>audio</dt>
-        <dd>defines as a audio file.</dd>
-        <dt>canvas</dt>
-        <dd>used to the graphics or games.</dd>
-        <dt>details</dt>
-        <dd>used to the added additional details.</dd>
-        <dt>datalist</dt>
-        <dd>used to the list of pre-defined option in input element.</dd>
-        <dt>embed</dt>
-        <dd></dd>
-        <dt>figure</dt>
-        <dd></dd>
-        <dt>footer</dt>
-        <dd></dd>
-        <dt>header</dt>
-        <dd></dd>
-        <dt>hgroup</dt>
-        <dd></dd>
-        <dt>keygen</dt>
-        <dd></dd>
-        <dt>mark</dt>
-        <dd></dd>
-        <dt>meter</dt>
-        <dd></dd>
-        <dt>nav</dt>
-        <dd></dd>
-        <dt>output</dt>
-        <dd></dd>
-        <dt>progress</dt>
-        <dd></dd>
-        <dt>ruby</dt>
-        <dd></dd>
-        <dt>section</dt>
-        <dd></dd>
-        <dt>time</dt>
-        <dd></dd>
-        <dt>video</dt>
-        <dd></dd>
-        <dt>wbr</dt>
-        <dd></dd>
-    </dl>
+    <table>
+        <tr>
+            <th>HTML</th>
+            <th>HTML5</th>
+        </tr>
+        <tr>
+            <td>In HTML not allow JavaScript to run in browser.</td>
+            <td>In HTML5 allow JavaScript to run in browser.</td>
+        </tr>
+        <tr>
+            <td>In HTML not allow to the darg and drop effect.</td>
+            <td>In HTML5 allow to the darg and drop effect.</td>
+        </tr>
+        <tr>
+            <td>HTML works with all old browsers.</td>
+            <td>HTML5 suppoerted all new browser(Chrome,Firefox).</td>
+        </tr>
+        <tr>
+            <td>In HTML nav, header were not present.</td>
+            <td>In HTML5 new element nav, header, etc.. present.</td>
+        </tr>
+
+    </table><br><br>
+
+    List of all new elements in HTML5: <br>
+
+    <ol>
+        <li><b>article:</b>
+            <p>defines as a blog entry or newspaper article</p>
+
+                <b><u>Example:</u></b> <br><br>
+
+                    <article>
+                        <h3>Google Chrome</h3>
+                        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+                    </article>
+        </li><br>
+        <li><b>aside:</b>
+            <p>defines as a some content other than the content placed in it. </p>
+
+                <b><u>Example:</u></b> <br><br>
+
+                <aside>
+                    <h3>Epcot Center</h3>
+                    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                  </aside>
+        </li><br>
+        <li><b>audio</b>
+            <p>defines as a audio file.</p><br>
+
+                <b><u>Example:</u></b> <br><br>
+
+                    <audio controls muted autoplay loop>
+                        <source src="audio.mp3" type="audio/mpeg">
+                    </audio> 
+        </li><br>
+        <li><b>canvas</b>
+            <p>used to the graphics or games.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+                <canvas id = "can" width = "200" height = "100" style = "border:1px solid black"></canvas>
+        </li><br>
+        <li><b>details</b>
+            <p>used to the added additional details.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+                <details>
+                    <summary>HTML</summary>
+                        Hyper Text Markup Language
+                </detail>
+        </li><br>
+
+        <li><b>datalist</b>
+            <p>used to the list of pre-defined option in input element.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+                Browsers: <input list="browsers" name="browser" id="browser">
+
+                <datalist id="browsers">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+        </li><br>
+
+        <li><b>embed</b>
+            <p>used to embed an external document in an HTML file(image,video,text)</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+            <embed type="image/jpg" src="./Image/photo.jpg" width="300" height="200">
+        </li><br>
+
+        <li><b>figure</b>
+            <p>used to pass the image and its information</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+            <figure>
+                <img src="./Image/books.jpg">
+                <figcaption>
+                    <span> Books </span>
+                </figcaption>
+            </figure>
+        </li><br>
+
+        <li><b>footer</b>
+            <p>used footer for a document or section.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+            <footer>
+                <p>Author: Hege Refsnes</p>
+            </footer>    
+        </li><br>
+
+        <li><b>header</b>
+            <p>used for give a heading in browser </p>
+
+            <b><u>Example:</u></b> <br><br>
+
+                <header>
+                    <h3>A heading here</h3>
+                    <p>Some additional information here</p>
+                </header>
+        </li><br>
+
+        <li><b>hgroup</b>
+            <p>used for give a heading section.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+                <hgroup>
+                    <h3>Welcome to my WWF</h3>
+                    <h4>For a living planet</h4>
+                </hgroup>
+        </li><br>
+
+        <li><b>keygen</b>
+            <p>used to specify a key-pair generator field in a form.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+
+        </li><br>
+        <li><b>mark</b>
+            <p>used to highlight the part of the text in a paragraph</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+                <mark>
+                    Mark Tag!
+                </mark>
+
+        </li><br>
+        <li><b>meter</b>
+            <p>used to the measurement scale.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+                HTML:
+                    <meter value="70" min="0" max="100">
+                    </meter>
+
+        </li><br>
+
+        <li><b>nav</b>
+            <p>used to the navigation link in html document.</p>
+            
+            <b><u>Example:</u></b> <br><br>
+
+                <nav>
+                    <a href="#">HTML</a> 
+                    <a href="#">CSS</a> 
+                    <a href="#">JavaScript</a>
+                </nav>
+        </li><br>
+
+        <li><b>output</b>
+            <p>used to the represent the some type of output.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+        </li><br>
+
+        <li><b>progress</b>
+            <p>used to the progress report.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+                HTML:<progress value="5" min="0" max="10"></progress><br><br>
+                CSS: <progress value="50%" min="0%" max="100%"></progress>
+        </li><br>
+
+        <li><b>ruby</b>
+            <p>used to a small extra text, attached to the main text</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+            <ruby>
+                <rt>HTML</rt>
+                Hyper Text Markup Language
+            </ruby>
+        </li><br>
+
+        <li><b>section</b>
+            <p>used to the section in a document.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+            <section>
+                <h3>WWF History</h3>
+                <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+            </section>
+        </li><br>
+
+        <li><b>time</b>
+            <p>used to the display date/time.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+            <p>I Wake up at <time>6.00</time> am in every morning.</p>
+
+        </li><br>
+
+        <li><b>video</b>
+            <p>used to the embed video content in a document.ex, movie clip.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+            <video controls muted  loop poster="poster.jpg">
+                <source src="Video Song/Jhoome Jo Pathaan Song - Shah Rukh Khan, Deepika - Vishal & Sheykhar, Arijit Singh, Sukriti, Kumaar.mp4" type="video/mp4">
+            </video>
+
+        </li><br>
+
+        <li><b>wbr</b>
+            <p>wbr is Word Break Opportunity.used to the line-break.</p>
+
+            <b><u>Example:</u></b> <br><br>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit illum cupiditate ab dolore sint nostrum aut ut veniam eaque minima qui rerum autem, beatae,<wbr> aperiam voluptatem praesentium incidunt? Quia assumenda distinctio incidunt? Ab aut laboriosam eum maxime quas eligendi amet, recusandae vitae sunt odit minima facilis dicta quos! Vitae, optio.</p>
+        </li><br>
+    </ol>
+
+    <hr><hr>
 </body>
 </html>
