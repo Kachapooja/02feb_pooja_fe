@@ -1,0 +1,44 @@
+*{
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    border: 1px solid red;
+    background-color: powderblue;
+    color: blue;
+    text-shadow: 5px 5px 5px lightblue;
+    font-size: 25px;
+    padding: 3px;
+    display: inline-block;
+}
+.hm{
+    margin-top: 60px;
+}
+.nt{
+   float: right;
+   margin-top: -35px;
+}
+.nt a{
+    text-decoration: none;
+    color: blue;
+    text-shadow: 5px 5px 5px lightblue;
+    background-color: powderblue;
+    padding: 3px;
+    font-size: 25px;
+
+}
+.links a{
+    /* text-decoration: none; */
+    /* background-color: aquamarine; */
+    color: blue;
+    font-size: large;
+    padding: 5px;
+    margin: 450px;
+}
+h1{
+    color: brown;
+    text-shadow: 2px 2px 2px lightsalmon;
+    font-size: 50px;
+    background-color:tan;
+    text-align: center;
+}

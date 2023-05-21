@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px lightblue;
+    color: darkblue;
+}
+h2{
+    background-color: lightgrey;
+    display: inline;
+    padding: 5px;
+    border-radius: 10px;
+}
+b{
+    font-size: 20px;
+}
+hr{
+    border-color: limegreen;
+}
+p{
+    font-size: 20px;
+}
+li{
+    font-size: 17px;
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+button{
+    border: 1px solid red;
+    background-color: powderblue;
+    color: blue;
+    text-shadow: 5px 5px 5px lightblue;
+    font-size: 25px;
+    padding: 3px;
+    display: inline-block;
+}
+.hm{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.nt{
+   float: left;
+   margin-left: 600px;
+   margin-top: -60px;
+}
+.pw{
+    float: right;
+    margin-top: -60px;
+}
+.box a{
+    text-decoration: none;
+    color: blue;
+    text-shadow: 5px 5px 5px lightblue;
+    background-color: powderblue;
+    padding: 3px;
+    font-size: 25px;
+}

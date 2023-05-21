@@ -29,3 +29,45 @@ video{
     width: 500px;
     border: 2px solid brown;
 }
+.tag{
+    text-align: center;
+}
+table{
+    margin-left: 350px ;
+}
+table,th,td{
+    border: 2px solid rgb(226, 12, 12);
+    border-collapse: collapse;
+    padding: 10px;
+    /* justify-content: center; */
+}
+button{
+    border: 1px solid red;
+    background-color: powderblue;
+    color: blue;
+    text-shadow: 5px 5px 5px lightblue;
+    font-size: 25px;
+    padding: 3px;
+    display: inline-block;
+}
+.hm{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.nt{
+   float: left;
+   margin-left: 600px;
+   margin-top: -60px;
+}
+.pw{
+    float: right;
+    margin-top: -60px;
+}
+.box a{
+    text-decoration: none;
+    color: blue;
+    text-shadow: 5px 5px 5px lightblue;
+    background-color: powderblue;
+    padding: 3px;
+    font-size: 25px;
+}
