@@ -2,7 +2,7 @@
     
     font-family: 'Times New Roman', Times, serif;
 }
-button{
+/* button{
     border: 1px solid red;
     background-color: powderblue;
     color: blue;
@@ -26,10 +26,8 @@ button{
     padding: 3px;
     font-size: 25px;
 
-}
+} */
 .links a{
-    /* text-decoration: none; */
-    /* background-color: aquamarine; */
     color: blue;
     font-size: large;
     padding: 5px;

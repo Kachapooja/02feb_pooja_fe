@@ -1,0 +1,11 @@
+audio{
+    height: 60px;
+    width: 300px;
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+video{
+    height: 300px;
+    width: 500px;
+    border: 2px solid brown;
+}

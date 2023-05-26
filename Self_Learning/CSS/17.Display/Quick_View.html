@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick-View</title>
+    <style>
+        .img1:hover .quickview{
+            top: 100%;
+            opacity: 1;
+            padding: 10px;
+        }
+        .quickview{
+            position: absolute;
+            top: 0;
+            background: black;
+            color: white;
+            opacity: 0;
+            transition: 1s;
+        }
+        .img1{
+            height: 250px;
+            width: 250px;
+            /* position: absolute;
+            left: 0px;
+            margin: 10px 10px; */
+        }
+        .quickview:hover{
+            background-color: #2fdab8;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="view"> -->
+        <img class="img1" src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg">
+        <div class="quickview">Quick View</div>
+<!-- </div> -->
+</body>
+</html>

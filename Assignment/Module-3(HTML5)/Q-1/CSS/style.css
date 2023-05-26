@@ -31,9 +31,11 @@ p{
 embed{
     border: 2px solid brown;
 }
+ul li{
+    list-style: none;
+}
 img{
     border: 1px solid crimson;
-    /* background-attachment: fixed; */
     height: 200px;
     width: 300px;
 }
@@ -55,18 +57,9 @@ button{
     padding: 3px;
     display: inline-block;
 }
-.hm{
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
 .nt{
-   float: left;
-   margin-left: 600px;
-   margin-top: -60px;
-}
-.pw{
-    float: right;
-    margin-top: -60px;
+   margin-top: 20px;
+   margin-left: 1250px;
 }
 .box a{
     text-decoration: none;
@@ -75,5 +68,4 @@ button{
     background-color: powderblue;
     padding: 3px;
     font-size: 25px;
-
 }
