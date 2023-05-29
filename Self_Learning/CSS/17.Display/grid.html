@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            /* width: 650px;
+            height: 75vh; */
+            display: grid;
+            /* margin-left: 30px;
+            margin-top: 50px; */
+            /* justify-content: center; */
+            margin: 60px 350px;
+            background: powderblue;
+            /* grid-template-rows: 100px 100px 100px 100px; */
+            /* grid-template-columns: 100px 100px 100px 100px; */
+            /* grid-template-rows: repeat(4,100px);*/    /*if you not writing multiple time value thn use this value */
+            /* grid-template-columns: repeat(4,100px); */
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            /*       gap Property  start     */
+            /* row-gap: 30px; */
+            /* column-gap: 30px; */
+            /* gap: 30px 40px; */     /* 1st is row gap & 2nd is column gap*/
+            gap: 10px;               /* this property use to gap between row and column*/
+            /*       gap property  end      */
+
+            /* border: 1px solid; */
+        }
+        .txt{
+            background: rgba(154, 205, 50, 0.5);
+            /* margin: 30px; */
+            padding: 20px;
+            font-size: 25px;
+            border: 1px solid orangered;
+            text-align: center;
+        }
+        .text-1{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            /* grid-area: 1 / 1 / 4 / 2; */
+        }
+        .text-5{
+            grid-column-start: 2;
+            grid-column-end: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="txt text-1">1.</div>
+    <div class="txt text-2">2.</div>
+    <div class="txt text-3">3.</div>
+    <div class="txt text-4">4.</div>
+    <div class="txt text-5">5.</div>
+    <div class="txt text-6">6.</div>
+    <div class="txt text-7">7.</div>
+    <div class="txt text-8">8.</div>
+    <div class="txt text-9">9.</div>
+
+</div>
+</body>
+</html>
