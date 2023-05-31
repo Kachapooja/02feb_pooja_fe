@@ -145,11 +145,11 @@ button{
     font-size: x-large;
     font-weight: 600;
     margin-left: 610px;
-    margin-top: 13px;
+    margin-top: 16px;
 }
 .info{
     position: absolute;
-    top: 460px; 
+    top: 420px; 
     left: 0px;
 }
 .info h4{
@@ -162,10 +162,49 @@ button{
     margin-left: 890px;
 }
 .info p{
-    opacity: 0.600;
+    opacity: 0.450;
     font-size: 15px;
     color: #ffffff;
     font-weight: 500;
     font-family: "Montserrat";
     margin-left: 890px;
+}
+.triangle1{
+    position: relative;
+    top: 400px;
+    left: 890px;
+}
+i{
+    /* color: #ffffff; */
+    color: #e8ebe8;
+    font-size: 25px;
+}
+hr{
+    background-color: #e8ebe8;
+   border: 0px;
+   height: 1px;
+   width: 250px;
+    margin-left: 25px;
+    margin-top: -13px;
+    opacity: 0.600;
+}
+span{
+    font-size: 25px;
+    margin-left: 290px;
+    color: #e8ebe8;
+    opacity: 0.600;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.num{
+    margin-left: 310px;
+    margin-top: 1px;
+    color: #e8ebe8;
+    font-size: 20px;
+}
+.triangle2{
+    position: absolute;
+    top: 350px;
+    left: 550px;
 }

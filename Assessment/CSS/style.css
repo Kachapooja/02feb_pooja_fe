@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 550px;
+    width: 700px;
+    background-color: #add8e6;
+    margin: 35px auto;
+}
+header h2{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    font-size: 25px;
+    font-weight: 400;
+}
+header hr{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 650px;
+    border: 1px solid lightsteelblue;
+}
+nav{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    height: 90px;
+    width: 650px;
+    background: #fff;
+    margin: 75px 327px;
+}
+.add h5{
+    margin: 12px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.add p{
+    margin: 12px 10px;
+    font-size: 13px;
+    font-weight: 300;
+}
+.add1 i{
+    color: #DC3545;
+    position: absolute;
+    top: 38px;
+    left: 250px;
+    font-size: 13px;
+}
+#num{
+    position: absolute;
+    top: 38px;
+    left: 270px;
+    color: #DC3545;
+    font-size: 12px;
+}
+.add2 i{
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    font-size: 12px;
+    color: #17a2b8;
+}
+#mail{
+    position: absolute;
+    top: 57px;
+    left: 270px;
+    color: #17a2b8;
+    font-size: 13px;
+}
+.add3 i{
+    color: #DC3545;
+    position: absolute;
+    top: 38px;
+    left: 550px;
+    font-size: 22px;
+}
+.main{
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    height: 355px;
+    width: 650px;
+    background: #fff;
+    margin: 155px 327px;
+}
+input{
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+.combo1{
+    
+    margin: 10px ;
+}
+.combo2{
+    margin: 13px 10px;
+}
+
+textarea{
+    padding: 5px;
+    margin: 5px 10px;
+    border: 1px solid lightgray;
+}
+#submit{
+    position: absolute;
+    top: 220px;
+    left: 10px;
+    padding: 7px 13px;
+    background: #DC3545;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+}
+iframe{
+    float: right;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+
+.icon1{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 310px;
+    left: 385px;
+}
+.icon2{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 316px;
+    left: 430px;
+}
+.icon3 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 305px;
+    left: 460px;
+}
+.icon4 {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 315px;
+    left: 510px;
+}
