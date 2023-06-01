@@ -39,7 +39,6 @@ table,th,td{
     border: 2px solid rgb(226, 12, 12);
     border-collapse: collapse;
     padding: 10px;
-    /* justify-content: center; */
 }
 button{
     border: 1px solid red;

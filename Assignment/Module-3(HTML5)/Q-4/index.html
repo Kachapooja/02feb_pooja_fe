@@ -9,14 +9,14 @@
 </head>
 <body>
     
-    <div class="box">
-        <div class="hm">
+    <header class="box">
+        <header class="hm">
             <button> <a href="../Home.html">Home</a></button>
-        </div>
-        <div class="pw">
+        </header>
+        <header class="pw">
             <button><a href="../Q-3/index.html">Prev</a></button>
-        </div>
-    </div>
+        </header>
+    </header>
 
     <hr><hr>
 
@@ -26,7 +26,59 @@
     
     <h2><u>Canvas and SVG tags</u></h2> <br><br>
 
-    <b><u>Ans:</u></b><br>
+    <b><u>Ans:</u></b><br><br>
+
+        <!-- Canvas Tag Start -->
+
+    <b><u>Canvas:</u></b>
+
+        <ul>
+            <li>Canvas is Raster based</li>
+            <li>Canvas has poor scalability.</li>
+            <li>Canvas is not printing in higher resolution.</li>
+            <li>Canvas is not working on pixels.</li>
+            <li>Canvas is represent to the Graphic.</li>
+            <li>In Canvas JavaScript is compulsory.</li>
+        </ul>
+
+    <b><u>Example:</u></b><br><br>
+    
+            <canvas id="text" height="300px" width="300px" style="background-color: dodgerblue;"></canvas>
+
+        <script>
+            var canvas = document.getElementById("text");
+            var abc    = canvas.getContext("2d");
+            abc.moveTo(0,0);
+            abc.lineTo(300,300);
+            abc.stroke();     //stroke = border
+            abc.font = "30px Arial";
+            abc.fillText("Hello World", 10, 50);
+            // abc.strokeText("Hello", 50, 100);
+        </script><br><br>
+
+        <!-- Canvas Tag End -->
+
+
+        <!-- SVG Tag Start -->  
+
+    <b><u>SVG:</u></b><br>
+
+        <ul>
+            <li>SVG(Scalabel Vector Graphic) is Vector based</li>
+            <li>SVG has better scalability.</li>
+            <li>SVG is printed with high quality at any resolution.</li>
+            <li>SVG is working on pixels.</li>
+            <li>SVG is also represent to the Graphic.</li>
+            <li>In SVG JavaScript is not necessary.</li>
+        </ul>
+
+    <b><u>Example:</u></b><br><br>
+    
+            <svg height="250px" width="250px" style="border: 1px double brown;">
+                <circle cx="100" cy="100" r="60" stroke="teal" stroke-width="7" fill="crimson"/>
+            </svg>
+
+            <!-- SVG Tag End -->
 
 </body>
 </html>
