@@ -69,12 +69,10 @@ li a {
 .content-1{
     position: absolute;
     color: #fff;
-    /* position: fixed; */
     font-size: 40px;
     top: 200px;
     left: 500px;
     z-index: 2;
-    /* position: relative; */
 }
 .content-2{
     position: absolute;

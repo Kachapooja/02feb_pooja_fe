@@ -1,0 +1,168 @@
+body{
+    color: #171a20;
+    font-family: 'M PLUS 1', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+/* video{
+    height: 600px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+} */
+svg{
+    height: 80px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+.heading1{
+    height: 50px;
+    width: 100%;
+    float: left;
+    line-height: 70px;
+    font-family: arial;
+    text-align: center;
+}
+.heading1 li{
+    display: inline;
+    list-style: none;
+    margin: 12px;    
+}
+.heading2{
+    height: 50px;
+    width: 100%;
+    float: left;
+    margin-top: -24px;
+    font-family: arial;
+    text-align: right;
+}
+.heading2 li{
+    list-style: none;
+    display: inline;
+    margin: 12px;
+}
+section{
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+
+}
+.content{
+    /* position: absolute; */
+}
+input{
+    border-radius: 6px;
+    border: none;
+    position: absolute;
+    position: fixed;
+    /* position: relative; */
+    z-index: 0;
+}
+#submit1{
+    color: #fff;
+    background-color: #3b3e42;
+    font-size: 15px;
+    padding: 9px 90px;
+    top: 550px;
+    left: 400px;
+    z-index: 1;
+}
+#submit2{
+    background-color: #e8e8e7;
+    font-size: 15px;
+    padding: 9px 90px;
+    top: 550px;
+    left: 700px;
+    z-index: 1;
+    /* position: fixed; */
+    /* margin-top: 65px; */
+}
+h1{
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 65px; 
+    margin-left: 630px;
+}
+p{
+    font-size: 15px;
+    text-decoration:underline;
+    margin-top: 10px;
+    margin-left: 630px;
+}
+.txt1{
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+.txt2{
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+.txt3{
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+.txt4{
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+.txt5{
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+.txt5 input #submit3{
+    color: #fff;
+    background-color: #3b3e42;
+    font-size: 15px;
+    padding: 9px 90px;
+    top: 550px;
+    left: 400px;
+    z-index: 1;
+}
+.txt5 h1{
+    margin-left: 600px;
+}
+.txt5 p{
+    margin-left: 590px;
+}
+.txt6{
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+.txt6 h1{
+    margin-left: 600px;
+}
+.txt6 p{
+    margin-left: 560px;
+}
+.txt7{
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+.txt7 h1{
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 55px; 
+    margin-left: 550px;
+}
