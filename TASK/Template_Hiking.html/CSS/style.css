@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    /* height: 200p; */
+}
 header{
     /* position: relative; */
     height: 80px;
@@ -62,7 +65,7 @@ header{
     color: red;
 }
 img{
-    height: 613px;
+    height: 596px;
     width: 100%;
     opacity: 0.950;
     background-color: #000000;
@@ -104,9 +107,6 @@ img{
     position: absolute;
     top: 20px;
     left: 20px;
-}
-.text ul{
-    
 }
 .text ul li{
     list-style: none;
@@ -175,7 +175,6 @@ button{
     left: 890px;
 }
 i{
-    /* color: #ffffff; */
     color: #e8ebe8;
     font-size: 25px;
 }
@@ -183,14 +182,14 @@ hr{
     background-color: #e8ebe8;
    border: 0px;
    height: 1px;
-   width: 250px;
-    margin-left: 25px;
+   width: 300px;
+    margin-left: 20px;
     margin-top: -13px;
     opacity: 0.600;
 }
 span{
     font-size: 25px;
-    margin-left: 290px;
+    margin-left: 325px;
     color: #e8ebe8;
     opacity: 0.600;
     position: absolute;
@@ -198,7 +197,7 @@ span{
     left: 0px;
 }
 .num{
-    margin-left: 310px;
+    margin-left: 348px;
     margin-top: 1px;
     color: #e8ebe8;
     font-size: 20px;
@@ -207,4 +206,41 @@ span{
     position: absolute;
     top: 350px;
     left: 550px;
+}
+.triangle2 i{
+    color: #e8ebe8;
+    font-size: 25px;
+    margin-left: 750px;
+    margin-top: 220px;
+}
+.icon{
+    position: absolute;
+    top: 240px;
+    left: 1335px;
+    /* right: 0; */
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    height: 150px;
+    background-color: black; 
+}
+.icon1 i{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.icon2 i{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.icon3 i{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.icon4 i{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 25px;
 }
