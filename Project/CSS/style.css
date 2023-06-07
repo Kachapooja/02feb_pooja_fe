@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 615px;
+    width: 650px;
+    background: #fff url('../Image/background.jpg') repeat-x;
+	font-family: verdana, arial, sans-serif;
+	text-align: center;
+}
+.container{
+    margin: 0px auto;
+    width: 787px;
+    background: #fff;
+    text-align: left;
+}
+a{
+    color: #000;
+    text-decoration: underline;
+}
+a:hover{
+    color: #9e0100;
+}
+span{
+    display: none;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
+img{
+    border: none;
+}
+p{
+    padding: 7px 0px 8px;
+    text-align: justify;
+    line-height: 15px;
+}
+.clr{
+    margin: 0px;
+    height: 1px;
+    clear: both;
+    float: none;
+    font-size: 1px;
+    line-height: 0px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* Main Header */
+.main-header{
+    width: 787px;
+    height: 222px;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: left;
+}
+.main-header a{
+    color: #fff;
+}
+.main-header a:hover{
+    color: #f4d03f;
+}
+
+/* First Header */
+
+.first-header{
+    width: 413px;
+    height: 221px;
+    color: #fff;
+    background: #cc0000 url('../Image/headertitle_bg.jpg') no-repeat 0% 0%;
+    float: right;
+    overflow: hidden;
+}
+.first-header h1{
+    margin: 23px auto 0px 8px;
+    width: 300px;
+    height: 64px;
+    background: url('../Image/headertitle.gif') no-repeat 0% 0%;
+}
+.first-header .text{
+    padding: 85px 12px 0px;
+}
+.first-header .text a{
+    text-transform: uppercase;
+}
+
+/* Second Header */
+
+.second-header{
+    width: 220px;
+    height: 221px;
+    background: url('../Image/header_musicnotes.jpg') no-repeat 0% 46px;
+    float: left;
+    overflow: hidden;
+    font-size: 10px;
+}
+.second-header a{
+    text-decoration: none;
+}
+.second-header ul{
+    width: 220px;
+    height: 46px;
+    color: #fff;
+    background-color: #cc0000;
+}
+.second-header li{
+    padding: 20px 12px 0px;
+    float: left;
+}
+
+/* Middle Header */
+
+.middle-header{
+    width: 154px;
+    height: 221px;
+    color: #fff;
+    background: url('../Image/headernav_bg.jpg') repeat-y;
+    float: left;
+    overflow: hidden;
+    font-size: 10x;
+    line-height: 10px;
+    border-bottom: #d1d1d1 1px solid;
+}
+.middle-header a{
+    text-decoration: none;
+}
+.middle-header ul{
+    margin-top: 46px;
+    height: 174px;
+    background: url('../Image/headernav_listbg.gif') repeat-y;
+    border-bottom: #9f0000 1px solid;
+}
+.middle-header li{
+    background: url('../Image/headernav_bullet.jpg') no-repeat 8px 5px;
+    width: 154px;
+    height: 23px;
+    border-top: #fff 1px solid;
+    text-transform: uppercase;
+    overflow: hidden;
+    float: left;
+}
+.middle-header li a{
+    display: block;
+    padding-top: 6px;
+    padding-left: 28px;
+    background-image: none;
+}
+
+/* Left Side Box*/
+
+.leftside-box{
+    padding: 15px 20px;
+    text-align: left;
+}
+.leftside-box .pay-btn{
+    padding-top: 25px;
+    text-align: center;
+}
+.leftside-box .highlight{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*  middle content */
+
+.middle-content{
+    width: 787px;
+    background: #ffcb02 url('../Image/sidebar_box1_bg.jpg') repeat-y;
+}
+.rightside-box{
+    width: 566px;
+    float: right;
+    font-size: 10px;
+}
+.rightside-box .welcome-box p{
+    padding-bottom: 5px;
+    padding-left: 15px;
+    width: 260px;
+    float: left;
+    line-height: 12px;
+}
+.rightside-box .whtline{
+    margin: 0px;
+    height: 1px;
+    background: #fff;
+    float: none;
+    clear: both;
+    font-size: 1px;
+    line-height: 0px;
+    overflow: hidden;
+}
+
+/* Left Side First Box */
+
+.leftside-h1{
+    width: 221px;
+    background: url('../Image/sidebar_box1_top.jpg') no-repeat 0% 0% ;
+    text-align: right;
+    float: left;
+}
+.leftside-header{
+    margin: 18px 15px 0px auto;
+    width: 156px;
+    height: 33px;
+    background: url('../Image/sidebar_box1_headerbg.jpg') no-repeat 0% 0%;
+    overflow: hidden;
+}
+.leftside-header h2{
+    width: 156px;
+    height: 33px;
+    background: url('../Image/whatsnew_header.gif') no-repeat 50% 50%;
+}
+
+/* Rightside Box: Submit Row */
+
+.submit-row{
+    padding: 5px 10px;
+    font-size: 11px;
+}
+.submit-row h3{
+    margin: 7px 0px 3px;
+    width: 282px;
+    height: 42px;
+    background: url('../Image/signupnow.gif') no-repeat 0% 0%;
+    float: left;
+}
+.submit-row form{
+    width: 260px;
+    float: right;
+}
+.submit-row .formlist{
+    float: left;
+    padding: 0px 0px 3px;
+    width: 190px;
+}
+.submit-row form strong{
+    display: block;
+    padding-top: 11px;
+    width: 60px;
+    text-align: right;
+    float: left;
+    clear: left;
+}
+.submit-row input{
+    margin-top: 8px;
+    margin-left: 10px;
+    padding: 2px 0px;
+    width: 115px;
+    border: solid #000;
+    border-width: 1px 0px 0px 1px;
+    float: left;
+}
+.submit-row input .sub-btn{
+    margin-top: 3px;
+    width: 60px;
+    height: 48px;
+    border: none;
+    float: right;
+}

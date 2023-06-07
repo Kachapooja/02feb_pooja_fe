@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Que-19</title>
+</head>
+<body>
+    <h1>Que :- 19</h1>
+
+    <h2><u>Create basic math operation in JS</u></h2> <br><br>
+
+    <b><u>Ans:</u></b><br><br>
+
+    <section class="math-box">
+        <h3>Maths Operations</h3>
+        <form>
+            <label for="text">Enter 1st number:</label>
+            <input type="text" name="text" id="text1"><br><br>
+            <label for="text">Enter 2nd number:</label>
+            <input type="text" name="text" id="text2">
+            <div class="btn1">
+                <input type="button" value="+" onclick="add()">
+                <input type="button" value="-" onclick="sub()">
+                <input type="button" value="*" onclick="mul()">                
+            </div>
+            <div class="btn2">
+                <input type="button" value="/" onclick="div()">
+                <input type="button" value="%" onclick="mod()">
+            </div>
+
+            <p>Answer is : 
+            <span id="result"></span>
+            </p> 
+        </form>
+    </section>
+    <script>
+        
+        function add() {
+            var text1 = document.getElementById('text1').value;
+            var text2 = document.getElementById('text2').value;
+            
+            document.getElementById('result').innerHTML = text1 + text2;
+            
+        }
+
+        function sub(){
+            var text1 = document.getElementById('text1').value;
+            var text2 = document.getElementById('text2').value;
+
+            document.getElementById('result').innerHTML = text1 - text2;
+        }
+
+        function mul(){
+            var text1 = document.getElementById('text1').value;
+            var text2 = document.getElementById('text2').value;
+
+            document.getElementById('result').innerHTML = text1 * text2;
+        }
+
+        function div(){
+            var text1 = document.getElementById('text1').value;
+            var text2 = document.getElementById('text2').value;
+
+            document.getElementById('result').innerHTML = text1 / text2;
+        }
+
+        function mod(){
+            var text1 = document.getElementById('text1').value;
+            var text2 = document.getElementById('text2').value;
+
+            document.getElementById('result').innerHTML = text1 % text2;
+        }
+        
+        
+    </script>
+</body>
+
+</html>
