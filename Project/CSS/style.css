@@ -1,27 +1,36 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
-    height: 615px;
-    width: 650px;
+    /* width: 650px;  */
+    color: #000;
     background: #fff url('../Image/background.jpg') repeat-x;
 	font-family: verdana, arial, sans-serif;
+    font-size: 11px;
 	text-align: center;
 }
-.container{
+.main-container{
+    height: 670px;
     margin: 0px auto;
-    width: 787px;
-    background: #fff;
-    text-align: left;
+	width: 789px;
+	color: inherit;
+	background-color: #fff;
+	text-align: left;
+    overflow: hidden;
+}
+.container{
+    margin: 0px 1px;
+	width: 787px;
 }
 a{
     color: #000;
+	background-color: inherit;
     text-decoration: underline;
 }
 a:hover{
     color: #9e0100;
+	background-color: inherit;
 }
 span{
     display: none;
@@ -31,6 +40,11 @@ ul{
 }
 li{
     list-style-type: none;
+}
+input{
+    border: 0px;
+	font-family: verdana, arial, sans-serif;
+	font-size: 10px;
 }
 img{
     border: none;
@@ -50,6 +64,10 @@ p{
     overflow: hidden;
     visibility: hidden;
 }
+.grp-pic{
+    padding: 10px 0px;
+	float: left;
+}
 
 /* Main Header */
 .main-header{
@@ -61,9 +79,11 @@ p{
 }
 .main-header a{
     color: #fff;
+	background: inherit;
 }
 .main-header a:hover{
     color: #f4d03f;
+	background: inherit;
 }
 
 /* First Header */
@@ -167,10 +187,23 @@ p{
     text-align: center;
 }
 
+/* Welcome Box */
+
+.welcome-box{
+    padding: 15px 20px;
+}
+.welcome-box h2{
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #c00000;
+    background-color: inherit;
+}
+
 /*  middle content */
 
 .middle-content{
     width: 787px;
+    color: inherit;
     background: #ffcb02 url('../Image/sidebar_box1_bg.jpg') repeat-y;
 }
 .rightside-box{
@@ -191,12 +224,13 @@ p{
     background: #fff;
     float: none;
     clear: both;
+    color: inherit;
     font-size: 1px;
     line-height: 0px;
     overflow: hidden;
 }
 
-/* Left Side First Box */
+/* Left Side First Box 1st line*/
 
 .leftside-h1{
     width: 221px;
@@ -256,10 +290,67 @@ p{
     border-width: 1px 0px 0px 1px;
     float: left;
 }
-.submit-row input .sub-btn{
+.submit-row input.sub-btn{
     margin-top: 3px;
     width: 60px;
     height: 48px;
     border: none;
     float: right;
+}
+
+/* Middle Content2 */
+
+.middle-content2{
+    width: 787px;
+    color: inherit;
+    background: #ff9700 url('../Image/sidebar_box2_bg.jpg') repeat-y;
+}
+
+/* Left Side First Box 2nd line */
+
+.leftside-h2{
+    width: 221px;
+    background: url('../Image/sidebar_box2_arrow.gif') no-repeat 100% 85%;
+    float: left;
+}
+.leftside-h2 .pay-btn{
+    padding-top: 20px;
+}
+
+/* Rightside Box 2nd line */
+
+.rightside-box2{
+    width: 566px;
+    float: right;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* Gigs */
+
+.gigs{
+    margin: 0px auto;
+    padding: 25px 0px 15px;
+    width: 527px;
+}
+.gigs h2{
+    width: 527px;
+    height: 37px;
+    background: url('../Image/novembergigs_header.gif') no-repeat 0% 0%;
+}
+.gigs-table table{
+    width: 527px;
+}
+.gigs-table td{
+    padding: 10px 10px;
+    color: #000;
+    background-color: #fda628;
+    font-size: 11px;
+    text-align: left;
+}
+.gigs-table .hdr-row td{
+    padding-top: 3px;
+    color: #fff;
+    background-color: #f8ab36;
+    border-bottom: #ff9700 2px solid;
 }

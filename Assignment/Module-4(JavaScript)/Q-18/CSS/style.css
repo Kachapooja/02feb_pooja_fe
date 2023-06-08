@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px lightblue;
+    color: darkblue;
+}
+h2{
+    background-color: lightgrey;
+    display: inline;
+    padding: 5px;
+    border-radius: 10px;
+}
+hr{
+    border-color: limegreen;
+}
+b{
+    font-size: 20px;
+}
+.box{
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    width: 400px;
+    height: 60px;
+}
+.pswrd{
+    margin-left: 40px; 
+}
+.chkbox{
+    margin-left: 38px;
+    margin-top: 17px;
+}
