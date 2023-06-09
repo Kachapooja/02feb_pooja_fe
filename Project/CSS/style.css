@@ -3,7 +3,6 @@
     padding: 0;
 }
 body{
-    /* width: 650px;  */
     color: #000;
     background: #fff url('../Image/background.jpg') repeat-x;
 	font-family: verdana, arial, sans-serif;
@@ -337,6 +336,12 @@ p{
     width: 527px;
     height: 37px;
     background: url('../Image/novembergigs_header.gif') no-repeat 0% 0%;
+}
+audio{
+    width: 150px;
+    height: 30px;
+    float: right;
+    margin-top: -8px;
 }
 .gigs-table table{
     width: 527px;
