@@ -17,25 +17,45 @@
     <div class="container">
         <h3>Marksheet for Information Technology</h3>
         <h5>Enter Marks</h5>
-        <form>
-            <label for="text">1. C Language</label>
-            <input type="text" id="text" name="marks">
-            <label for="text">2. C++ Language</label>
-            <input type="text" id="text" name="marks">
-            <label for="text">3. Database</label>
-            <input type="text" id="text" name="marks">
-            <label for="text">4. HTML</label>
-            <input type="text" id="text" name="marks">
-            <label for="text">5. CSS</label>
-            <input type="text" id="text" name="marks">
-            <label for="text">6. php</label>
-            <input type="text" id="text" name="marks">
-            <label for="text">7. Core java</label>
-            <input type="text" id="text" name="marks">
-            <input type="submit" id="sub" name="result" value="Result">
-            <h7>Total is :     / 350</h7>
-            <p>Percentage is : </p>
-        </form>
+            <label>1. C Language</label>
+            <input type="text" id="text1"><br>
+            <label>2. C++ Language</label>            
+            <input type="text" id="text2"><br>
+            <label>3. Database</label>
+            <input type="text" id="text3"><br>
+            <label>4. HTML</label>
+            <input type="text" id="text4"><br>
+            <label>5. CSS</label>
+            <input type="text" id="text5"><br>
+            <label>6. php</label>
+            <input type="text" id="text6"><br>
+            <label>7. Core java</label>
+            <input type="text" id="text7"><br>
+            <button id="totalBtn" onclick="calculatePercetage()">Result</button><br>
+            <div id="sub">
+                <p id="totl" >Total is :     /350</p><br>
+                <p id="per">Percentage is : </p>
+            </div>
     </div>
+    <script>
+
+        function calculatePercetage()
+        {
+            var cLanguage, cPlusLanguage, database, html, css, php, coreJava, total, percentage
+            cLanguage=parseInt(text1.value)
+            cPlusLanguage=parseInt(text2.value)
+            database=parseInt(text3.value)
+            html=parseInt(text4.value)
+            css=parseInt(text5.value)
+            php=parseInt(text6.value)
+            coreJava=parseInt(text7.value)
+            total=(cLanguage + cPlusLanguage + database + html + css + php + coreJava)
+            percentage= total / 350 * 100
+
+            document.getElementById("totl").innerHTML="Total is : "+total + "/350";
+            document.getElementById("per").innerHTML="Percentage is : "+ percentage + "%";
+            document.getElementById("sub").style.display="block";
+        }
+    </script>
 </body>
 </html>
