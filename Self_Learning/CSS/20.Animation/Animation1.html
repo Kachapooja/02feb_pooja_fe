@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            height: 400px;
+            width: 400px;
+            background: olivedrab;
+            animation-name: box1;
+            animation-direction: alternate-reverse;
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate; */
+            animation-delay: 1s;
+            animation-duration: 3s;
+            /* animation-iteration-count: 3; */
+            animation-iteration-count: infinite;
+            /* animation-fill-mode: forwards; */
+            animation-fill-mode: alternate;
+            /* animation-fill-mode: backwards; */
+            /* animation-fill-mode: both; */
+            /* animation-timing-function: ease; */
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: ease-out; */
+            animation-timing-function: ease-in-out;
+
+            /* These properties can be set using this shorthand */
+
+        /* animation: animation-name  animation-duration animation-timing-function  animation-delay animation-iteration-count  animation-fill-mode; */
+        /* animation: harry 5s ease-in 1s 12 backwards; */
+
+
+
+
+        }
+        @keyframes box1{
+            from{
+                background: blue; border-radius: 10%;
+                }
+                to{
+                    background: rgb(187, 187, 243); border-radius: 50%;
+                    }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

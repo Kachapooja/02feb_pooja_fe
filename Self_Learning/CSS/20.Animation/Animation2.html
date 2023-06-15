@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            height: 150px;
+            width: 150px;
+            background: olivedrab;
+            position: absolute;
+            animation-name: box1;
+            animation-direction: alternate-reverse;
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate; */
+            animation-delay: 1s;
+            animation-duration: 3s;
+            /* animation-iteration-count: 3; */
+            animation-iteration-count: infinite;
+            /* animation-fill-mode: forwards; */
+            animation-fill-mode: alternate;
+            /* animation-fill-mode: backwards; */
+            /* animation-fill-mode: both; */
+            /* animation-timing-function: ease; */
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: ease-out; */
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes box1{
+            0%{
+                background: blue; top: 100%; left: 0%;
+                }
+            25%{
+                background: rgb(65, 90, 201); top: 50%; left: 25%;
+            }
+            50%{
+                background: rgb(93, 156, 207); top: 25%; left: 50%;
+            }
+            100%{
+                background: rgb(187, 187, 243); top: 0%; left: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

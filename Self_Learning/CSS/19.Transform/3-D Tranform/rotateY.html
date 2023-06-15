@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rotateX</title>
+    <style>
+        div{
+            height: 310px;
+            width: 200px;
+            margin: 20px auto;
+            transition: 1s;
+            background-color: aqua;
+            backface-visibility: hidden;
+        }
+        .main{
+            background: transparent;
+            position: relative;
+        }
+        .child{
+            margin: 0;
+            background-size: 100% 100%;
+            position: absolute;
+            transition: 5s;
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SHjnORTC7vPVQi3JcLQrnP12jdsdkhhEqA&usqp=CAU') no-repeat;
+        }
+        .ch1{
+            transform: rotateY(180deg);
+        }
+        .ch2{
+            transform: rotateY(0deg);
+        }
+        .main:hover .ch2{
+            transform: rotateY(180deg);
+        }
+        .main:hover .ch1{
+            transform: rotateY(0deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="child ch1">rotateY</div>
+        <div class="child ch2">rotate</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px lightblue;
+    color: darkblue;
+}
+h2{
+    background-color: lightgrey;
+    display: inline;
+    padding: 5px;
+    border-radius: 10px;
+}
+hr{
+    border-color: limegreen;
+}
+b{
+    font-size: 20px;
+}
