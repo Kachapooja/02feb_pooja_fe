@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+    body{
+        text-align:center;
+    }
+    .part1{
+        font-size: 40px;
+        font-weight: bold;
+        color: saddlebrown;
+    }
+    @media only screen and (max-width:500px) {
+        body{
+        text-align:center;
+        background-color: lightcoral;
+        }
+    }
+    @media only screen and (min-width:500px) and (max-width:800px) {
+        body{
+        text-align:center;
+        background-color: powderblue;
+        }
+        .part1{
+            font-size: 40px;
+            font-weight: bold;
+            color:black;
+        }
+        .part2{
+            color: black;
+        }
+    }
+    @media only screen and (min-width:800px) {
+        body{
+        text-align:center;
+        background-color: rgb(206, 172, 24);
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="part1">Hello World!</div>
+    <div class="part2">Makig Responsive Web-site using Media Query</div>
+</body>
+</html>
