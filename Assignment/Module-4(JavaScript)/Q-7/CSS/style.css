@@ -16,6 +16,11 @@ b{
     font-size: 20px;
 }
 li{
-    font-size: 1.2rem;
-    
+    font-size: 1.2rem;   
+}
+.clr{
+    color: #210ece;
+}
+.chng{
+    color: crimson;
 }
